@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    GSW -- Developer -- @geewatt
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+    Django
+    HTML5, CSS3
+    jQuery, Modernizr
