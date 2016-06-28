@@ -27,7 +27,7 @@ SECRET_KEY = ''
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.path.join(BASE_DIR, "templates")]
+ALLOWED_HOSTS = [os.path.join(BASE_DIR, "templates"), 'frendo.pythonanywhere.com']
 
 
 # Application definition
