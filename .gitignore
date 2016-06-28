@@ -4,3 +4,4 @@ __pycache__
 .coverage
 *.pyc
 .DS_Store
+gsw/fixtures
