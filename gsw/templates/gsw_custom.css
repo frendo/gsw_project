@@ -1,0 +1,81 @@
+body {
+    background-color:#DBDFE0;
+    padding:0;
+    text-align: center;
+   
+}
+.helv-thin {
+    font-family: "HelveticaNeueW01-Thin", "Helvetica Neue CE 35 Thin", "Helvetica Neue LT 35 Thin", "Helvetica Neue 35 Thin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.jumbotron-custom {
+    height: 90vh;
+    margin-bottom: 0;
+}
+.navbar-custom {
+    margin-top:0;
+    margin-bottom: 0;
+    background-color:white;
+    color:#ffffff;
+    border-radius:0;
+    border:0;
+}
+.navbar-custom a {
+    color: #939393;
+    font-size:1em;
+    vertical-align:middle;
+}
+.navbar-custom a:hover{
+    color: #939393 !important;
+
+}
+.custom-bullet-anchor a::after{
+content:"";
+border-radius: 10%;
+background-color: rgb( 0, 0, 0 );
+color: #939393;
+opacity: 0.729;
+width: 5px;
+height: 5px;
+margin:2px 50px; 
+padding: 0px;
+display:inline-block;
+}
+.navbar-toggle
+{
+    background-color:black;
+}
+.custom-margin {
+    margin-left: 23%;
+    margin-right:23%;
+}
+      .custom-margin2 {
+    margin-left: 5%;
+    margin-right:5%;
+}
+.custom-container-fluid {
+    text-align: center;
+    padding:0;
+}
+#index h1{
+font-size:3em;
+color: black;
+}
+#index p{
+font-size:1.5em;
+color: #757575;
+}
+.maxwidth {
+max-width: 100%;
+}
+.bgimg {
+background-image: url({% static "background_pattern.png" %});
+background-size: 100% 100%;
+}
+.section-custom {
+outline: .1px solid #CAD5DA;
+}
+#about {padding-top:50px;height:500px;color: #888888; background-color: #fff;}
+#apps {padding-top:50px;height:500px;color: #444444; background-color: #F7F9FA;}
+#contact {padding-top:50px;height:500px;color: #444444; background-color: #F2F5F6;}
+#section41 {padding-top:50px;height:500px;color: #444444; background-color: #fff;}
+#section42 {padding-top:50px;height:500px;color: #444444; background-color: #F7F9FA;} 

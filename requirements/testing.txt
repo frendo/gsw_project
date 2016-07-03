@@ -1,3 +1,4 @@
 selenium==2.48.0
 coverage
 -r base.txt
+pillow
