@@ -1,0 +1,13 @@
+{% extends 'gsw/base.html' %}
+
+{% block content %}
+    {% for project in projects %}
+        <div class="project">
+            <div class="date">
+                {{ project.published_date }}
+            </div>
+            <h1><a href="">{{ project.title }}</a></h1>
+            <p>{{ project.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

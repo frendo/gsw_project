@@ -19,6 +19,8 @@ urlpatterns += i18n_patterns(
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    #url(r'', include('gsw.apps.blog.urls')),
     url(r'^$', home, name='home'),
-
+    url(r'^blog/', include('gsw.apps.blog.urls')),
+    url(r'^projects/', include('gsw.apps.projects.urls')),
 )
