@@ -4,9 +4,9 @@
     {% for project in projects %}
         <div class="project">
             <div class="date">
-                {{ project.published_date }}
+                {{ project.completed_date }}
             </div>
-            <h1><a href="">{{ project.title }}</a></h1>
+	    <h1><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h1>
             <p>{{ project.text|linebreaksbr }}</p>
         </div>
     {% endfor %}
