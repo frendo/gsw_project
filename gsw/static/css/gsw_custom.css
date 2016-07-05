@@ -28,6 +28,10 @@ body {
     color: #939393 !important;
 
 }
+.navbar-custom a:visited{
+    color: #939393 !important;
+
+}
 .custom-bullet-anchor a::after{
 content:"";
 border-radius: 10%;
@@ -45,8 +49,8 @@ display:inline-block;
     background-color:black;
 }
 .custom-margin {
-    margin-left: 23%;
-    margin-right:23%;
+    margin-left: 15%;
+    margin-right:15%;
 }
 .custom-margin2 {
     margin-left: 5%;

@@ -4,19 +4,19 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{% static "css/tiles.css" %}"
 <div>
-	<div class="jumbotron bgimg custom-margin2 jumbotron-custom">
+	<div class="jumbotron bgimg jumbotron-custom">
 	    <div class="container-fluid custom-container-fluid">
 		<h1>Experienced International IT Consultant</h1>
 		<p>Helping deliver original and dynamic solutions</p>
 	</div>
 </div>
-<div id="about" class="container-fluid section-custom custom-margin2">
+<div id="about" class="container-fluid section-custom">
         <h1>About</h1>
         <p>Highly motivated and focused. Capable of effectively seeing projects through from start to finish. Excellent team working skills and able to support and encourage colleagues.</p>
         <p>Enjoys challenge and has a problem solving outlook. Keen to find new approaches and share ideas.</p>
 </div>
 
-<div id="projects" class="container-fluid section-custom custom-margin2">
+<div id="projects" class="container-fluid section-custom">
     <h1>Projects</h1>
     <div class="custom-margin3 text-center">
         {% for project in projects %}
@@ -30,13 +30,16 @@
                     <div class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="item active">
-				    <p class="helv-thin"><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></p></a>
 				    <a href="{{ project.company_url }}" target="_blank">
 					    <img src="{{ project.company_logo_url }}" alt="{{project.company_logo_alt }}" class="img-responsive center-block">
 				    </a>
+				    <br></br>
+				    <p><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></p></a>
                             </div>
                             <div class="item">
 			        <h3><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h3>
+				<br></br>
+				<p>lajf asdlfjh asdlfhja lhjasfd;lkh asdflkjhasdf lhjasfd lhjasdf ajshfd</p>
                             </div>
                         </div>
                     </div>
@@ -48,12 +51,12 @@
 		</div>
 </div>
 
-<div id="contact" class="container-fluid section-custom custom-margin2">
+<div id="contact" class="container-fluid section-custom">
         <h1>Skills</h1>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-<div id="contact" class="container-fluid section-custom custom-margin2">
+<div id="contact" class="container-fluid section-custom">
         <h1>Continous Improvements</h1>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
