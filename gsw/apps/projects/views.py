@@ -7,6 +7,10 @@ def project_list(request):
     projects = Project.objects.filter(completed_date__lte=timezone.now()).order_by('completed_date')
     return render(request, 'projects/project_list.html', {'projects' : projects})
 
+def project_logo(request):
+    projects = Project.objects.filter(completed_date__lte=timezone.now()).order_by('completed_date')
+    return render(request, 'index.html', {'projects' : projects})
+
 def project_detail(request, pk):
     project = get_object_or_404(Project, pk=pk)
     return render(request, 'projects/project_detail.html', {'project': project})

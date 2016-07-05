@@ -52,6 +52,11 @@ display:inline-block;
     margin-left: 5%;
     margin-right:5%;
 }
+.custom-margin3 {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right:20%;
+}
 .custom-container-fluid {
     text-align: center;
     padding:0;
@@ -75,7 +80,7 @@ background-size: 100% 100%;
 outline: .1px solid #CAD5DA;
 }
 #about {padding-top:50px;height:500px;color: #888888; background-color: #fff;}
-#apps {padding-top:50px;height:500px;color: #444444; background-color: #F7F9FA;}
+#projects {padding-top:50px;padding-bottom:50px;height:auto;color: #444444; background-color: #F7F9FA;}
 #contact {padding-top:50px;height:500px;color: #444444; background-color: #F2F5F6;}
 #section41 {padding-top:50px;height:500px;color: #444444; background-color: #fff;}
 #section42 {padding-top:50px;height:500px;color: #444444; background-color: #F7F9FA;} 

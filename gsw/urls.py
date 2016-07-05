@@ -3,6 +3,8 @@ from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
 from .views import home, home_files
 
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
 
@@ -12,6 +14,7 @@ urlpatterns = [
 	url(r'^accounts/', include('allauth.urls')),
 ]
 
+#urlpatterns += static(settings.base.MEDIA_URL, document_root=settings.base.MEDIA_ROOT)
 
 urlpatterns += i18n_patterns(
     # Examples:
@@ -24,3 +27,5 @@ urlpatterns += i18n_patterns(
     url(r'^blog/', include('gsw.apps.blog.urls')),
     url(r'^projects/', include('gsw.apps.projects.urls')),
 )
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

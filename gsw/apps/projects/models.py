@@ -5,7 +5,9 @@ from django.utils import timezone
 class Project(models.Model):
     title = models.CharField(max_length=200)
     company = models.CharField(max_length=200)
-    company_logo = models.ImageField()
+    company_logo_url = models.TextField()
+    company_logo_alt = models.TextField()
+    company_url = models.TextField()
     text = models.TextField()
     completed_date = models.DateTimeField(
             blank=True, null=True)

@@ -141,6 +141,9 @@ STATICFILES_DIRS = (
   os.path.join(BASE_DIR, "static"),
 )
 
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = '/media/'
+
 from django.core.exceptions import ImproperlyConfigured
 
 def get_env_variable(var_name):
