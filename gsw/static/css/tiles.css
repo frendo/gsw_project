@@ -52,3 +52,12 @@
 }
 .img-responsive {
     }
+#projects h1{ 
+	font-size:3em;
+	color: black;
+}
+#projects a{
+	font-size:1.5em;
+	color: #757575;
+}
+

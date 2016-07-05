@@ -30,10 +30,13 @@
                     <div class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="item active">
-				<img src="{{ project.company_logo_url }}" class="img-responsive center-block">
+				    <p class="helv-thin"><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></p></a>
+				    <a href="{{ project.company_url }}" target="_blank">
+					    <img src="{{ project.company_logo_url }}" alt="{{project.company_logo_alt }}" class="img-responsive center-block">
+				    </a>
                             </div>
                             <div class="item">
-			        <h3><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h3></a></h3>
+			        <h3><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h3>
                             </div>
                         </div>
                     </div>
