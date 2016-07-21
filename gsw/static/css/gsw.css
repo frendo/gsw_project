@@ -8,7 +8,7 @@ body {
     font-family: "HelveticaNeueW01-Thin", "Helvetica Neue CE 35 Thin", "Helvetica Neue LT 35 Thin", "Helvetica Neue 35 Thin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .jumbotron-custom {
-    height: 90vh;
+    height: 100%;
     margin-bottom: 0;
 }
 .navbar-custom {
@@ -67,7 +67,7 @@ max-width: 100%;
 .section-custom {
 outline: .1px solid #CAD5DA;
 }
-#about {padding-top:50px;height:500px;color: #888888; background-color: #fff;}
+#about {padding-top:50px;height:auto;color: #888888; background-color: #fff;}
 #projects {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #F7F9FA;}
 #skills {padding-top:50px;height:auto;color: #444444; background-color: #F2F5F6;}
 #ContinuousImprovements{padding-top:50px;height:auto;color: #444444; background-color: #F7F9FA;}
@@ -317,4 +317,7 @@ padding-bottom: 10px;
 #CI_list li {
 list-style: none;
 text-align: left; 
+}
+#about p {
+text-align: justify;
 }
