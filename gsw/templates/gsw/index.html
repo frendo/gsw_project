@@ -1,13 +1,16 @@
 {% extends 'gsw/base.html' %}
-{% load staticfiles%}
+{% load staticfiles %}
 {% block content %}
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{% static "css/tiles.css" %}"
+
 <div>
 	<div class="jumbotron bgimg jumbotron-custom">
-	    <div class="container-fluid custom-container-fluid">
-		<h1>Experienced International IT Consultant</h1>
-		<p>Helping deliver original and dynamic solutions</p>
+	    <div id="splash" class="container-fluid custom-container-fluid custom-margin3">
+		<br></br>
+		<h1>International IT Finance Consultant</h1>
+		<h2>IT Solution Delivery to Finance Services</h2>
+		<h2>Business Process improvements and refinement</h2>
+		<h2>Contious improvement based on data driven analysis</h2>
+		<h2>Experience of working accross EMEA, APC, LA and NA regions</h2>
 	</div>
 </div>
 <div id="about" class="container-fluid section-custom">
@@ -37,9 +40,12 @@
 				    <p><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></p></a>
                             </div>
                             <div class="item">
-			        <h3><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h3>
-				<br></br>
-				<p>lajf asdlfjh asdlfhja lhjasfd;lkh asdflkjhasdf lhjasfd lhjasdf ajshfd</p>
+			        <h4><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h4>
+				<ul class="footer-contact-nav">
+				{% for highlight in project.highlightsArray %}
+					<li>{{ highlight }} </li>
+				{% endfor %}	
+				</ul>
                             </div>
                         </div>
                     </div>
@@ -51,15 +57,168 @@
 		</div>
 </div>
 
-<div id="contact" class="container-fluid section-custom">
-        <h1>Skills</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+<div id="skills" class="container-fluid section-custom">
+    <h1>Skills</h1>
+    <h2>Languages</h2>
+    <br></br>
+    <div class="container">
+      <div class="row">
+      
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://msdn.microsoft.com/en-us/library/k1s94fta(v=vs.71).aspx" target="_blank"><img src={% static "logos/vb_net.png" %} alt="vb_net logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://www.python.org/" target="_blank"><img src={% static "logos/python.png" %} alt="python logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank"><img src={% static "logos/html5.png" %} alt="html5 logo" /></a>
+        </div>
+                 <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://developer.mozilla.org/en/docs/Web/CSS/CSS3" target="_blank"><img src={% static "logos/css3.png" %} alt="css3 logo" /></a>
+        </div>
+          
+                 <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://jquery.com/" target="_blank"><img src={% static "logos/jquery.png" %} alt="jquery logo" /></a>
+        </div>
+                 <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://www.w3schools.com/sql/" target="_blank"><img src={% static "logos/sql.png" %} alt="sql logo" /></a>
+        </div>
+                 <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://tools.hana.ondemand.com/#abap" target="_blank"><img src={% static "logos/sapabap.png" %} alt="sap abap logo" /></a>
+        </div>
+    </div>  
+    </div>
+
+
+
+	<br></br>
+
+    <h2>Applications / Frameworks</h2>
+    <br></br>
+    <div id="logos" class="container">
+      <div class="row">
+      
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://go.sap.com/index.html" target="_blank"><img src={% static "logos/SAP.png" %} alt="sap logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://hana.sap.com/abouthana.html" target="_blank"><img src={% static "logos/saphana.png" %} alt="sap hana logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://go.sap.com/uk/product/financial-mgmt/bpc.html" target="_blank"><img src={% static "logos/sapbpc.png" %} alt="sap bpc logo" /></a>
+        </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://support.sap.com/solution-manager.html" target="_blank"><img src={% static "logos/sapsolman.png" %} alt="sap solution manager logo" /></a>
+        </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://www.tableau.com/" target="_blank"><img src={% static "logos/tableau.png" %} alt="tableau logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://products.office.com/en-gb/access" target="_blank"><img src={% static "logos/access.png" %} alt="Microsoft Access logo" /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://products.office.com/en-gb/excel" target="_blank"><img src={% static "logos/excel.png" %} alt="Microsoft Excel logo" /></a>
+        </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://products.office.com/en-gb/sharepoint" target="_blank"><img src={% static "logos/sharepoint.png" %} alt="Microsoft SharePoint logo" /></a>
+        </div>
+            
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://azure.microsoft.com/" target="_blank"><img src={% static "logos/azure.png" %} alt="Microsoft Azure logo" /></a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://www.djangoproject.com/" target="_blank"><img src={% static "logos/django.png" %} alt="django logo" /></a>
+        </div>
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://github.com/" target="_blank"><img src={% static "logos/github.png" %} alt="github logo" /></a>
+        </div>
+
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://www.postgresql.org/" target="_blank"><img src={% static "logos/postgresql.png" %} alt="postgresql logo" /></a>
+        </div>
+          
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://www.minitab.com/" target="_blank"><img src={% static "logos/minitab.png" %} alt="minitab logo" /></a>
+        </div>
+        
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="http://getbootstrap.com/" target="_blank"><img src={% static "logos/bootstrap.png" %} alt="bootstrap logo" /></a>
+        </div>
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://www.linux.com/" target="_blank"><img src={% static "logos/linux.png" %} alt="linux logo" /></a>
+	</div>
+	<div class="col-md-3 col-sm-4 col-xs-6">
+            <div class="dummy"></div>
+            <a href="https://aws.amazon.com/" target="_blank"><img src={% static "logos/aws.png" %} alt="aws logo" /></a>
+        </div>
+    </div>
+
 </div>
-<div id="contact" class="container-fluid section-custom">
+</div>
+<div id="ContinousImprovements" class="container-fluid section-custom">
         <h1>Continous Improvements</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Certifications</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-2 col-xs-2">
+			    <div class="dummy"></div>
+			    <a href="https://www.isixsigma.com" target="_blank"><img src={% static "logos/sixsigmagb.png" %} alt="Six Sigma Green Belt logo" /></a>
+			</div>
+			<div class="col-md-4 col-sm-2 col-xs-2">
+			    <div class="dummy"></div>
+			    <a href="https://www.isixsigma.com" target="_blank"><img src={% static "logos/sixsigma.png" %} alt="Six Sigma logo" /></a>
+			</div>
+			<div class="col-md-4 col-sm-2 col-xs-2">
+			    <div class="dummy"></div>
+			    <a href="https://www.isixsigma.com/new-lean-six-sigma/" target="_blank"><img src={% static "logos/leanSixSigma.png" %} alt="Six Sigma Lean logo" /></a>
+			</div>
+		</div>
+	</div>
+	<br></br>
+	<div class="container-fluid custom_margin1">
+				<ul id="CI_list">
+					<li>Six Sigma Project - Remove</li>
+					<li>Open Construction Early Warning Report - Historical datasets extracted from SAP as base for SQL queries to advise of projects not meeting SOX requirements</li>
+					<li>Automation of Global VAT Netting process</li>
+					<li>Implementation of Electronic Closing Folder for EMEA GL team with automated account reconciliations</li>
+					<li>Automation of InstraStat reporting using SAP tables, SQL, Access and Excel</li> 
+					<li>Bank Of America bank to SAP reconciliation process digitized reducing FTE resources from 5 to 1</li>
+				</ul>
+	</div>
+	<div class="container-fluid custom_margin1">
+				<ul id="CI_list">
+					<li>Tool to identify Exchange Gain And Loss variances in both reconciliation and open item accounts</li>
+					<li>Extensive refinment of Asset Module transmisson to DuPont's Global Consolidation Reporting program - GCAP using SAP's special ledger</li>
+					<li>Collobarated on Tableau project to produce mobile/tablet friendly Business Reporting to Business Managers accross all Regions</li>
+					<li>Designed and developed tool to ETL and load Asset Accounting data between SAP R/3 systems</li>
+					<li>Creation of SharePoint team rooms to promote online collobaration during project work</li>
+					<li>Design and collobaration of the integration of SAP Asset Module to SAP Business Warehouse infocube</li>
+				</ul>
+	</div>
 </div>
  <script src={% static "js/tiles.js" %}></script>
+
 {% endblock %}

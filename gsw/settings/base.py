@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'gsw.apps.blog',
     'gsw.apps.projects',
+    'gsw.apps.angular',
 )
 
 MIDDLEWARE_CLASSES = (

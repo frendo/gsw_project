@@ -19,33 +19,11 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href={% static "css/gsw_custom.css" %}>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href={% static "css/gsw.css" %}>
     <title>Graeme Stewart Watt - IT Finance Consultant</title>
     <style>    
-	.bgimg {
-	      background-image: url({% static "background_pattern.png" %});
-	      background-size: 100% 100%;
-	      }
-	li.telephone {
-	background: url({% static "telephone.png" %}) no-repeat left 5px;
-	padding-left: 20px;
-	display: block;
-	}
-	li.blog {
-	background: url({% static "blog.png" %}) no-repeat left 5px;
-	padding-left: 20px;
-	display: block;
-	}
-	li.mail {
-	background: url({% static "mail.png" %}) no-repeat left 5px;
-	padding-left: 20px;
-	display: block;
-	}
-	li.lock {
-	background: url({% static "lock.png" %}) no-repeat left 5px;
-	padding-left: 20px;
-	display: block;
-	}
     </style>
   </head>
   <body id="index" class="helv-thin">
@@ -61,21 +39,33 @@
 				<span class="icon-bar"></span>
 			    </button>
 			    <!---<a class="navbar-left" href="#"><img src={% static "image.png" %}></a>-->
-			    <a class="navbar-brand" href="/">Graeme Stewart Watt</a>         
+			    <a class="navbar-brand" href="/">Graeme Stewart Watt M.A(Hons) M.A PMP</a>         
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 			    <div class="navbar-form navbar-right">
 			    </div>
 			    <ul class="nav navbar-nav navbar-right">
-				<li class="custom-bullet-ancho"><a href="#about" data-toggle="collapse" data-target=".nav-collapse">About</a></li>
-				<li class="custom-bullet-anchr"><a href="#apps" data-toggle="collapse" data-target=".nav-collapse">Apps</a></li>
-				<li><a href="#contact" data-toggle="collapse" data-target=".nav-collapse">Contact</a></li>
+				<li class=""><a href="#about" data-toggle="collapse" data-target=".nav-collapse">About</a></li>
+				<li class=""><a href="/apps" data-toggle="collapse" data-target=".nav-collapse">Apps</a></li>
+				<li class=""><a href="/#projects" data-toggle="collapse" data-target=".nav-collapse">Projects</a></li>
+				<li><a href="#footer-main" data-toggle="collapse" data-target=".nav-collapse">Contact</a></li>
 				   {% if user.is_authenticated %}
-					<li><a id="logout" href="/accounts/logout" class="helv-bold">Sign Out</a></li>
+					<li><a id="logout" href="/accounts/logout" class="">Sign Out</a></li>
 				    {% else %} 
-					<li><a id="google_login" href="/accounts/google/login" class="helv-bold">Sign in</a></li>
+					<li><a id="google_login" href="/accounts/google/login" class="">Sign in</a></li>
 				    {% endif %} 
-			    </ul>
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+				    {% get_available_languages as languages %}
+				    {% for language in languages %}
+					{% with image_static='images/i18n/'|add:language.0|add:'.png' %}
+					<li class="{% ifequal current_language language.0 %}active{% endifequal %}">
+					<a class="" href="/./{{ language.0 }}/" title="{{ language.1 }}"><img src="{% static image_static %}" alt="{{ language.0 }}" /></img><span></span></a></li>
+					{% endwith %}
+				    {% endfor %}
+			        </ul>
 		    </div>
 		</div>
         </nav>
@@ -89,18 +79,13 @@
 				<div id="footer-identity" class="clearfix">
 					<div class="logo logo-minimal-small sprite">
 						<h1><a href="/" title="Graeme Stewart Watt">Graeme Stewart Watt</a></h1>
+                        <h4 style="text-align:right;">M.A(Hons) M.A PMP</h4>
 					</div>
 				</div>
 			</ul>
 				<ul id="footer-serv-nav">
-					<li><a data-link="signup" class="helv-bold" title="Contract GSW as freelancer" href="#/signup">Contract</a></li>
-					<li><a title="Pricing" href="/pricing/">Pricing</a></li>
-					<li><a title="Apps" href="/apps/">Apps</a></li>
 				</ul>
 				<ul id="footer-company-nav">
-					<li><a class="helv-bold" title="GSW Story" href="/story/">Career</a></li>
-					<li><a title="GSW Story" href="/story/">CV</a></li>
-					<li><a title="GSW" href="/case-studies/">Case Studies</a></li>
 				</ul>
 				<div class="separator"></div>
 				<ul id="footer-contact-nav">
@@ -110,13 +95,13 @@
 				</ul>
 				<div class="separator"></div>
 				<ul id="footer-service-nav">
+                       <li></li>
 					   {% if user.is_authenticated %}
 						<li class="lock"><a id="logout" href="/accounts/logout" class="helv-bold">Logout</a></li>
 					    {% else %} 
 						<li class="lock"><a id="google_login" href="/accounts/google/login" class="helv-bold">Login in with Google</a></li>
 					    {% endif %} 
-					<li><a class="helv-bold" target="_blank" href=""><span></span>holder</a></li>
-					<li><a class="helv-bold" href="/"><span></span>holder</a></li>
+                        <li></li>
 				</ul>
 		</nav>
 	<div id="legal" class="clearfix">
@@ -124,7 +109,7 @@
 		&copy; Graeme Stewart Watt 2016
 	</div>
 	<div class="separator"></div>
-	<div id="terms-and-conditions"><a href="/terms-and-conditions/">Terms &amp; Conditions</a></div>
+	<div id="terms-and-conditions"><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
 	</div>
 	</footer>
 	</div>

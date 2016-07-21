@@ -1,13 +1,17 @@
 {% extends 'gsw/base.html' %}
-
+{% load staticfiles %}
 {% block content %}
-    <div class="project">
-        {% if project.published_date %}
-            <div class="date">
-                {{ project.published_date }}
-            </div>
-        {% endif %}
-        <h1>{{ project.title }}</h1>
-        <p>{{ project.text|linebreaksbr }}</p>
-    </div>
+<div class="jumbotron jumbotron-custom">
+	<div class="container-fluid custom-container-fluid">
+		{% if project.published_date %}
+		    <div class="date">
+			{{ project.published_date }}
+		    </div>
+		{% endif %}
+		<h1>{{ project.title }}</h1>
+		<div id="project_detail" class="custom-margin3">
+			<p>{{ project.text|linebreaksbr }}</p>
+		</div>
+	</div>
+</div>
 {% endblock %}

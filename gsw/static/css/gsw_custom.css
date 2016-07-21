@@ -84,9 +84,9 @@ background-size: 100% 100%;
 outline: .1px solid #CAD5DA;
 }
 #about {padding-top:50px;height:500px;color: #888888; background-color: #fff;}
-#projects {padding-top:50px;padding-bottom:50px;height:auto;color: #444444; background-color: #F7F9FA;}
-#contact {padding-top:50px;height:500px;color: #444444; background-color: #F2F5F6;}
-#section41 {padding-top:50px;height:500px;color: #444444; background-color: #fff;}
+#projects {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #F7F9FA;}
+#skills {padding-top:50px;height:auto;color: #444444; background-color: #F2F5F6;}
+#ContinuousImprovements{padding-top:50px;height:auto;color: #444444; background-color: #F7F9FA;}
 #section42 {padding-top:50px;height:500px;color: #444444; background-color: #F7F9FA;} 
 #footer-wrapper {
     /*width: 100%;*/
@@ -285,3 +285,36 @@ outline: .1px solid #CAD5DA;
 #footer-wrapper footer #legal #terms-and-conditions a {
     color: #aaaaaa
 }
+* {margin: 0; padding: 0;}
+
+#container {
+	width: auto;
+	overflow: hidden;
+	
+	background: white;
+}
+
+.bgimg {
+background-image: url("../background_pattern.png");
+background-size: 100% 100%;
+}   
+li.telephone {
+background: url("../telephone.png") no-repeat left 5px;
+padding-left: 20px;
+display: block;
+}   
+li.blog {
+background: url("../blog.png") no-repeat left 5px;
+padding-left: 20px;
+display: block;
+}   
+li.mail {
+background: url("../mail.png") no-repeat left 5px;
+padding-left: 20px;
+display: block;
+}   
+li.lock {
+background: url("../lock.png") no-repeat left 5px;
+padding-left: 20px;
+display: block;
+}   

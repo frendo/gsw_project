@@ -9,8 +9,13 @@ class Project(models.Model):
     company_logo_alt = models.TextField()
     company_url = models.TextField()
     text = models.TextField()
+    highlights = models.TextField()
     completed_date = models.DateTimeField(
             blank=True, null=True)
+
+    def highlightsArray(self):
+        highlightsArr = self.highlights.split(';')
+        return highlightsArr
 
     def publish(self):
         self.completed_date = timezone.now()

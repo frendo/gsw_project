@@ -26,6 +26,7 @@ urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
     url(r'^blog/', include('gsw.apps.blog.urls')),
     url(r'^projects/', include('gsw.apps.projects.urls')),
+    url(r'^angular/', include('gsw.apps.angular.urls')),
 )
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
