@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-27 17:35+0200\n"
+"POT-Creation-Date: 2016-07-27 19:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,23 +55,23 @@ msgid "Language"
 msgstr "Idioma"
 
 #: gsw/templates/gsw/index.html:8
-msgid "International IT Finance Consultant"
+msgid "International IT SAP Finance Consultant"
 msgstr "Consultor internacional de IT finanzas"
 
 #: gsw/templates/gsw/index.html:9
-msgid "IT Solution Delivery to Finance Services"
+msgid "IT Solution Delivery to Financial Services"
 msgstr "Soluciones informáticas para los servicios financieros"
 
 #: gsw/templates/gsw/index.html:10
-msgid "Business Process improvements and refinement"
+msgid "Business Process Improvements and Refinement"
 msgstr "Mejoras de procesos de negocio y refinamiento"
 
 #: gsw/templates/gsw/index.html:11
-msgid "Continous improvement based on data driven analysis"
+msgid "Continuous Improvement based on Data Driven Analysis"
 msgstr "De mejora continua basado en el análisis de datos impulsada"
 
 #: gsw/templates/gsw/index.html:12
-msgid "ETL solutions"
+msgid "ETL Solutions"
 msgstr "Soluciones ETL"
 
 #: gsw/templates/gsw/index.html:13
@@ -81,18 +81,19 @@ msgstr "Gobernanza de datos maestros"
 #: gsw/templates/gsw/index.html:22
 msgid ""
 "During the last ten years I have dedicated my energy in leading IT solutions "
-"to projects from a spectrum of sponsors and stakeholders, from senior "
+"to projects driven by a spectrum of sponsors and stakeholders, from senior "
 "accountants and managers through comptrollers to corporate accountants, in a "
 "global finance service center based on US GAAP accounting as well as various "
 "local accounting needs across EMEA, APC, NA and LA regions.<br><br>\n"
-"\tFollowing the Six Sigma methodology, I improved numerous businesses "
+"\tFollowing the Six Sigma methodology, I have improved numerous businesses "
 "processes using a data-driven approach for eliminating inefficiencies and "
-"increasing the productivity of the service center.<br><br>\n"
-"        Highly motivated and focused. Capable of effectively seeing projects "
-"through from start to finish. Excellent team working skills and able to "
-"support and encourage colleagues.\n"
-"        Enjoys challenge and has a problem solving outlook. Keen to find new "
-"approaches and share ideas."
+"increasing productivity of the service center.<br><br>\n"
+"        I am highly motivated and focused; capable of effectively seeing "
+"projects through from start to finish. I also have excellent team working "
+"skills and able to support and encourage colleagues.\n"
+"        I am looking for new challenges and continue broading my problem "
+"solving outlook. I am also keen to find new approaches and share ideas "
+"around emerging techonologies."
 msgstr ""
 "Durante los últimos diez años he dedicado mi energía en el suministro de "
 "soluciones de TI para proyectos de un espectro de patrocinadores y las "
@@ -187,7 +188,7 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:47
 msgid ""
-"Collection and prep of Comptroller's quartely reconciliation sign offs with "
+"Collection and prep of Comptrollers' quarterly reconciliation sign offs with "
 "MS Access App"
 msgstr ""
 "Recogida y preparación de la muestra trimestral offs de la Contraloría "
@@ -195,15 +196,15 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:48
 msgid ""
-"Created and maintained the automated process for SOX compliance to ensure "
-"all manual entry postings to SAP were documented and accounted for"
+"Designed and implemented automated process for SOX compliance to ensure all "
+"manual entry postings to SAP were documented and accounted for"
 msgstr ""
 "Creado y mantenido el proceso automatizado para el cumplimiento de SOX para "
 "asegurar las publicaciones del ingreso manual para SAP se documentaron y "
 "representaron "
 
 #: gsw/templates/gsw/index.html:50
-msgid "General Legder IT Specialist, DuPont Asturias"
+msgid "General Ledger IT Specialist, DuPont Asturias"
 msgstr ""
 
 #: gsw/templates/gsw/index.html:51
@@ -239,7 +240,7 @@ msgid "Applications / Frameworks"
 msgstr "Aplicaciones / Frameworks"
 
 #: gsw/templates/gsw/index.html:223
-msgid "Continous Improvements"
+msgid "Continuous Improvements"
 msgstr "Mejoras continuas"
 
 #: gsw/templates/gsw/index.html:224
@@ -251,11 +252,11 @@ msgid "Majority of below assignments involved:"
 msgstr "La mayoría de las tareas siguientes que se trate:"
 
 #: gsw/templates/gsw/index.html:245
-msgid "- Collection and analysis from the Voice of the Customer(VOC)"
-msgstr "- Recogida y análisis de la voz del cliente (VOC)"
+msgid "- Voice of the Customer(VOC) collection and analysis"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:246
-msgid "- Project Charter preperation"
+msgid "- Project Charter preparation"
 msgstr "- Preparación carta del proyecto"
 
 #: gsw/templates/gsw/index.html:247
@@ -263,7 +264,7 @@ msgid "- Powerpoint presentations to Sponsors and Senior Management"
 msgstr "- Presentaciones de PowerPoint a los patrocinadores y Alta Dirección"
 
 #: gsw/templates/gsw/index.html:248
-msgid "- Measured anaylsis to justify benefits of proposed solutions"
+msgid "- Measured analysis to justify benefits of proposed solutions"
 msgstr ""
 "- Análisis de medición para justificar beneficios de las soluciones "
 "propuestas"
@@ -278,7 +279,7 @@ msgstr "- Documentación y Swimlane Visual mapas para los nuevos procesos"
 
 #: gsw/templates/gsw/index.html:254
 msgid ""
-"Collobaration on Tableau project for mobile/tablet friendly Business "
+"Collaboration on Tableau project for mobile/tablet friendly Business "
 "Reporting dashboards to Global Business Managers"
 msgstr ""
 "Colaboración en el proyecto de Tableau para el móvil / tableta de negocios "
@@ -296,16 +297,16 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:257
 msgid ""
-"Design and develope ETL/Reconciliation app for Asset Accounting data accross "
-"SAP R/3 systems"
+"Design and develop ETL/Reconciliation app for Asset Accounting data transfer "
+"across SAP R/3 systems"
 msgstr ""
 "Diseño y desarrollo de ETL / app Reconciliación de los datos contables de "
 "activos a través de sistemas de SAP R/3"
 
 #: gsw/templates/gsw/index.html:258
 msgid ""
-"- Time savings and elminiation of rework and manual data entry errors, "
-"automated reconciliations"
+"- Time savings, rework and manual data entry errors elimination, automated "
+"reconciliations"
 msgstr ""
 "- Ahorro de tiempo y eliminación de retrabajo y los errores de entrada de "
 "datos manuales, conciliaciones automatizadas"
@@ -316,7 +317,7 @@ msgstr "Creación de bases de SharePoint y formas de control"
 
 #: gsw/templates/gsw/index.html:261
 msgid ""
-"- promote online collobaration during project work, centralised storage for "
+"- promote online collaboration during project work, centralized storage for "
 "project documentation"
 msgstr ""
 "- Promover la colaboración en línea durante el trabajo del proyecto, el "
@@ -324,7 +325,7 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:263
 msgid ""
-"Infocube design and collobaration for the integration of SAP Asset Module to "
+"Infocube design and collaboration for the integration of SAP Asset Module to "
 "SAP Business Warehouse"
 msgstr ""
 "Infocube diseño y la colaboración para la integración de SAP módulo de "
@@ -332,7 +333,7 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:264
 msgid ""
-"- Faster more standardised reporting queries with reduced MS Excel rework"
+"- Faster more standardized reporting queries with reduced MS Excel rework"
 msgstr ""
 "- Consultas de información más rápida y estandarizados con la reducción de "
 "la reanudación de MS Excel"
@@ -398,8 +399,8 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:281
 msgid ""
-"Extensive refinment and streamlining of SAP Asset Accounting Module "
-"transmisson to DuPont's Global Consolidation Reporting program"
+"Extensive refinement and streamlining of SAP Asset Accounting Module "
+"transmission to DuPont's Global Consolidation Reporting program"
 msgstr ""
 "Extensa refinamiento y la racionalización de SAP módulo de contabilidad de "
 "activos transmisión al programa de Consolidación de Información Global de "
@@ -412,6 +413,3 @@ msgid ""
 msgstr ""
 "- ganados simplificados automatizados conciliaciones FI-AA, tiempos de "
 "ahorro reducción de inversiones Permanente Cierre del Mes"
-
-#~ msgid "Responsibilites"
-#~ msgstr "Responsabilidades"
