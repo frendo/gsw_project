@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-27 12:27+0200\n"
+"POT-Creation-Date: 2016-07-27 17:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,14 +80,14 @@ msgstr "Gobernanza de datos maestros"
 
 #: gsw/templates/gsw/index.html:22
 msgid ""
-"During the last ten years I have dedicated my energy in providing IT "
-"solutions to projects from a spectrum of sponsors and stakeholders, senior "
-"accountants and managers through comptrollers to corporate accounting, in a "
-"global finance service center based on US GAAP accounting and as well as "
-"various local accounting needs across EMEA, APC, NA and LA regions.<br><br>\n"
+"During the last ten years I have dedicated my energy in leading IT solutions "
+"to projects from a spectrum of sponsors and stakeholders, from senior "
+"accountants and managers through comptrollers to corporate accountants, in a "
+"global finance service center based on US GAAP accounting as well as various "
+"local accounting needs across EMEA, APC, NA and LA regions.<br><br>\n"
 "\tFollowing the Six Sigma methodology, I improved numerous businesses "
 "processes using a data-driven approach for eliminating inefficiencies and "
-"increasing the productivity of the service center.<br>\n"
+"increasing the productivity of the service center.<br><br>\n"
 "        Highly motivated and focused. Capable of effectively seeing projects "
 "through from start to finish. Excellent team working skills and able to "
 "support and encourage colleagues.\n"
@@ -115,22 +115,11 @@ msgstr ""
 msgid "Experience"
 msgstr "Experiencia"
 
-#: gsw/templates/gsw/index.html:32
-msgid ""
-"<br><br>\n"
-"\t<br>\n"
-"        "
-msgstr ""
-
-#: gsw/templates/gsw/index.html:35
-msgid "Responsibilites"
-msgstr "Responsabilidades"
-
-#: gsw/templates/gsw/index.html:37
+#: gsw/templates/gsw/index.html:34
 msgid "Global IT Finance Business Process Owner, DuPont Asturias"
 msgstr "Propietario global procesos de IT Finanzas, DuPont Asturias"
 
-#: gsw/templates/gsw/index.html:38
+#: gsw/templates/gsw/index.html:35
 msgid ""
 "SME - Business processes for Fixed Asset/PS data flow through DuPont IT "
 "landscape"
@@ -138,11 +127,11 @@ msgstr ""
 "Los procesos de negocio para activos fijos / PS datos fluyen a través de "
 "DuPont entorno de TI "
 
-#: gsw/templates/gsw/index.html:39
+#: gsw/templates/gsw/index.html:36
 msgid "SAP FI-AA FI-PS configuration and transport maintenance"
 msgstr "Configuración de SAP FI-AA FIPS y mantenimiento de transportes"
 
-#: gsw/templates/gsw/index.html:40
+#: gsw/templates/gsw/index.html:37
 msgid ""
 "IT SAP Security owner for the Global Fixed Asset team in Finance Service "
 "Center"
@@ -150,18 +139,18 @@ msgstr ""
 "TI titular de seguridad de SAP para el equipo de activo fijo global en el "
 "centro servicio Finanzas de servicios Financieros "
 
-#: gsw/templates/gsw/index.html:41
+#: gsw/templates/gsw/index.html:38
 msgid ""
 "Daily IT support to the team of 18 Fixed Asset Accountants and Supervisors"
 msgstr ""
 "soporte de TI a diario para el equipo de 18 Fijo Contadores de activos y "
 "Supervisores "
 
-#: gsw/templates/gsw/index.html:42
+#: gsw/templates/gsw/index.html:39
 msgid "Continuous improvements to the team’s processes and workflow"
 msgstr "De mejora continua basado en el análisis de datos impulsada"
 
-#: gsw/templates/gsw/index.html:43
+#: gsw/templates/gsw/index.html:40
 msgid ""
 "Fixed Asset IT Workstream lead for Corporate sponsored Merger and Demerger "
 "projects"
@@ -169,34 +158,34 @@ msgstr ""
 "Plomo fijo de activos de TI Workstream para Corporate patrocinado Fusión y "
 "Escisión proyectos "
 
-#: gsw/templates/gsw/index.html:44
+#: gsw/templates/gsw/index.html:41
 msgid "Fixed Asset Position Paper Owner"
 msgstr "Activos fijos propietario Documento de Posición"
 
-#: gsw/templates/gsw/index.html:45
+#: gsw/templates/gsw/index.html:42
 msgid "Consultant on weekly Finance Architecture Review Meetings"
 msgstr "Consultor de Reuniones semanales revisión de la arquitectura Finanzas"
 
-#: gsw/templates/gsw/index.html:46
+#: gsw/templates/gsw/index.html:43
 msgid ""
 "Master Data Owner for Asset Class, Chart of Depreciations, FA GL accounts"
 msgstr ""
 "Propietario de datos maestros para la clase de activos, plan de valoración "
 "de las cuentas de GL"
 
-#: gsw/templates/gsw/index.html:47
+#: gsw/templates/gsw/index.html:45
 msgid ""
 "Account Reconciliation System (ARS) Database administrator, DuPont Asturias"
 msgstr "Cuenta del sistema Reconciliación (ARS) administrador de la base"
 
-#: gsw/templates/gsw/index.html:48
+#: gsw/templates/gsw/index.html:46
 msgid ""
 "Run and maintain of SQL server application for timely Month end sign offs"
 msgstr ""
 "Ejecutar y mantener de aplicación de servidor SQL para el mes oportuna offs "
 "señal de final "
 
-#: gsw/templates/gsw/index.html:49
+#: gsw/templates/gsw/index.html:47
 msgid ""
 "Collection and prep of Comptroller's quartely reconciliation sign offs with "
 "MS Access App"
@@ -204,7 +193,7 @@ msgstr ""
 "Recogida y preparación de la muestra trimestral offs de la Contraloría "
 "reconciliación con aplicación de MS Access "
 
-#: gsw/templates/gsw/index.html:50
+#: gsw/templates/gsw/index.html:48
 msgid ""
 "Created and maintained the automated process for SOX compliance to ensure "
 "all manual entry postings to SAP were documented and accounted for"
@@ -213,11 +202,11 @@ msgstr ""
 "asegurar las publicaciones del ingreso manual para SAP se documentaron y "
 "representaron "
 
-#: gsw/templates/gsw/index.html:51
+#: gsw/templates/gsw/index.html:50
 msgid "General Legder IT Specialist, DuPont Asturias"
 msgstr ""
 
-#: gsw/templates/gsw/index.html:52
+#: gsw/templates/gsw/index.html:51
 msgid ""
 "Providing IT support and solutions to GL accountants for processing accrual "
 "requests, reconciliations and month end closing processes"
@@ -423,3 +412,6 @@ msgid ""
 msgstr ""
 "- ganados simplificados automatizados conciliaciones FI-AA, tiempos de "
 "ahorro reducción de inversiones Permanente Cierre del Mes"
+
+#~ msgid "Responsibilites"
+#~ msgstr "Responsabilidades"

@@ -72,9 +72,10 @@ max-width: 100%;
 outline: .1px solid #CAD5DA;
 }
 #about {padding-top:50px;height:auto;color: #888888; background-color: #fff;}
+#experience {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #FAFBFD;}
 #projects {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #F7F9FA;}
-#skills {padding-top:50px;height:auto;color: #444444; background-color: #F2F5F6;}
-#ContinuousImprovements{padding-top:50px;height:auto;color: #444444; background-color: #F7F9FA;}
+#skills {padding-top:50px;height:auto;color: #444444; background-color: #F2F9FF;}
+#ContinuousImprovements{padding-top:50px;height:auto;color: #444444; background-color: #FFFFFF;}
 #footer-wrapper {
     /*width: 100%;*/
     min-height: 400px;
@@ -83,7 +84,7 @@ outline: .1px solid #CAD5DA;
     font-size: 12px;
     border-top: 1px solid #d4dde1;
     /*margin-top: 50px;*/
-    background-color: #f9fafb
+    background-color: #F7F9FA;
 }
 #footer-wrapper footer {
     
@@ -341,4 +342,19 @@ list-style:none;
 list-style: none;
 display: table;
 vertical-align: middle;
+}
+.roles {
+text-align: left;
+font-size:1.5em;
+color: #757575;
+}
+.roles dd {
+	display: list-item;
+	list-style-type: circle;
+	margin-left: 40px;
+}
+.roles dt {
+	font-weight: normal;
+	color: #1A1A1A;
+	font-size: 1.6em;
 }
