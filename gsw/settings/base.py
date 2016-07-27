@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'gsw',
     'gsw.apps.blog',
     'gsw.apps.projects',
     'gsw.apps.angular',
@@ -130,7 +131,7 @@ LANGUAGES = (
 )
 
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'locale'),
+    os.path.join(BASE_DIR, 'gsw/locale'),
 )
 
 
@@ -144,6 +145,8 @@ STATICFILES_DIRS = (
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
+
+
 
 from django.core.exceptions import ImproperlyConfigured
 

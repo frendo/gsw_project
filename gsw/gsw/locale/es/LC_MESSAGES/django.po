@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-27 12:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gsw/settings/base.py:129
+msgid "English"
+msgstr ""
+
+#: gsw/settings/base.py:130
+msgid "Castellano"
+msgstr ""
+
+#: gsw/templates/gsw/base.html:48 gsw/templates/gsw/index.html:20
+msgid "About"
+msgstr "Sobre"
+
+#: gsw/templates/gsw/base.html:49
+msgid "Apps"
+msgstr "Apps"
+
+#: gsw/templates/gsw/base.html:50 gsw/templates/gsw/index.html:60
+msgid "Projects"
+msgstr "Proyectos"
+
+#: gsw/templates/gsw/base.html:51
+msgid "Contact"
+msgstr "Contacto"
+
+#: gsw/templates/gsw/base.html:53
+msgid "Sign Out"
+msgstr "Desconectar"
+
+#: gsw/templates/gsw/base.html:55
+msgid "Sign in"
+msgstr "Conectar"
+
+#: gsw/templates/gsw/base.html:59
+msgid "Language"
+msgstr "Idioma"
+
+#: gsw/templates/gsw/index.html:8
+msgid "International IT Finance Consultant"
+msgstr "Consultor internacional de IT finanzas"
+
+#: gsw/templates/gsw/index.html:9
+msgid "IT Solution Delivery to Finance Services"
+msgstr "Soluciones informáticas para los servicios financieros"
+
+#: gsw/templates/gsw/index.html:10
+msgid "Business Process improvements and refinement"
+msgstr "Mejoras de procesos de negocio y refinamiento"
+
+#: gsw/templates/gsw/index.html:11
+msgid "Continous improvement based on data driven analysis"
+msgstr "De mejora continua basado en el análisis de datos impulsada"
+
+#: gsw/templates/gsw/index.html:12
+msgid "ETL solutions"
+msgstr "Soluciones ETL"
+
+#: gsw/templates/gsw/index.html:13
+msgid "Master Data Governance"
+msgstr "Gobernanza de datos maestros"
+
+#: gsw/templates/gsw/index.html:22
+msgid ""
+"During the last ten years I have dedicated my energy in providing IT "
+"solutions to projects from a spectrum of sponsors and stakeholders, senior "
+"accountants and managers through comptrollers to corporate accounting, in a "
+"global finance service center based on US GAAP accounting and as well as "
+"various local accounting needs across EMEA, APC, NA and LA regions.<br><br>\n"
+"\tFollowing the Six Sigma methodology, I improved numerous businesses "
+"processes using a data-driven approach for eliminating inefficiencies and "
+"increasing the productivity of the service center.<br>\n"
+"        Highly motivated and focused. Capable of effectively seeing projects "
+"through from start to finish. Excellent team working skills and able to "
+"support and encourage colleagues.\n"
+"        Enjoys challenge and has a problem solving outlook. Keen to find new "
+"approaches and share ideas."
+msgstr ""
+"Durante los últimos diez años he dedicado mi energía en el suministro de "
+"soluciones de TI para proyectos de un espectro de patrocinadores y las "
+"partes interesadas, contadores y administradores superiores a través "
+"contralores a la contabilidad de las empresas, en un centro de servicio "
+"financiero global basado en la contabilidad US GAAP y así como diversos "
+"necesidades de contabilidad locales en todas las regiones de EMEA, APC, NA y "
+"LA.<br>\n"
+"Siguiendo la metodología Seis Sigma, he mejorado numerosos procesos de "
+"negocios utilizando un enfoque basado en datos para eliminar las "
+"ineficiencias y el aumento de la productividad del centro de servicio.<br>\n"
+"        Altamente motivados y concentrados. Capaz de ver a través de "
+"proyectos de manera efectiva de principio a fin. Excelentes habilidades de "
+"trabajo en equipo y capaz de apoyar y animar a sus colegas. Disfruta de "
+"desafío y tiene una perspectiva de \n"
+" resolución de problemas. Deseosos de encontrar nuevos enfoques y compartir "
+"ideas. "
+
+#: gsw/templates/gsw/index.html:30
+msgid "Experience"
+msgstr "Experiencia"
+
+#: gsw/templates/gsw/index.html:32
+msgid ""
+"<br><br>\n"
+"\t<br>\n"
+"        "
+msgstr ""
+
+#: gsw/templates/gsw/index.html:35
+msgid "Responsibilites"
+msgstr "Responsabilidades"
+
+#: gsw/templates/gsw/index.html:37
+msgid "Global IT Finance Business Process Owner, DuPont Asturias"
+msgstr "Propietario global procesos de IT Finanzas, DuPont Asturias"
+
+#: gsw/templates/gsw/index.html:38
+msgid ""
+"SME - Business processes for Fixed Asset/PS data flow through DuPont IT "
+"landscape"
+msgstr ""
+"Los procesos de negocio para activos fijos / PS datos fluyen a través de "
+"DuPont entorno de TI "
+
+#: gsw/templates/gsw/index.html:39
+msgid "SAP FI-AA FI-PS configuration and transport maintenance"
+msgstr "Configuración de SAP FI-AA FIPS y mantenimiento de transportes"
+
+#: gsw/templates/gsw/index.html:40
+msgid ""
+"IT SAP Security owner for the Global Fixed Asset team in Finance Service "
+"Center"
+msgstr ""
+"TI titular de seguridad de SAP para el equipo de activo fijo global en el "
+"centro servicio Finanzas de servicios Financieros "
+
+#: gsw/templates/gsw/index.html:41
+msgid ""
+"Daily IT support to the team of 18 Fixed Asset Accountants and Supervisors"
+msgstr ""
+"soporte de TI a diario para el equipo de 18 Fijo Contadores de activos y "
+"Supervisores "
+
+#: gsw/templates/gsw/index.html:42
+msgid "Continuous improvements to the team’s processes and workflow"
+msgstr "De mejora continua basado en el análisis de datos impulsada"
+
+#: gsw/templates/gsw/index.html:43
+msgid ""
+"Fixed Asset IT Workstream lead for Corporate sponsored Merger and Demerger "
+"projects"
+msgstr ""
+"Plomo fijo de activos de TI Workstream para Corporate patrocinado Fusión y "
+"Escisión proyectos "
+
+#: gsw/templates/gsw/index.html:44
+msgid "Fixed Asset Position Paper Owner"
+msgstr "Activos fijos propietario Documento de Posición"
+
+#: gsw/templates/gsw/index.html:45
+msgid "Consultant on weekly Finance Architecture Review Meetings"
+msgstr "Consultor de Reuniones semanales revisión de la arquitectura Finanzas"
+
+#: gsw/templates/gsw/index.html:46
+msgid ""
+"Master Data Owner for Asset Class, Chart of Depreciations, FA GL accounts"
+msgstr ""
+"Propietario de datos maestros para la clase de activos, plan de valoración "
+"de las cuentas de GL"
+
+#: gsw/templates/gsw/index.html:47
+msgid ""
+"Account Reconciliation System (ARS) Database administrator, DuPont Asturias"
+msgstr "Cuenta del sistema Reconciliación (ARS) administrador de la base"
+
+#: gsw/templates/gsw/index.html:48
+msgid ""
+"Run and maintain of SQL server application for timely Month end sign offs"
+msgstr ""
+"Ejecutar y mantener de aplicación de servidor SQL para el mes oportuna offs "
+"señal de final "
+
+#: gsw/templates/gsw/index.html:49
+msgid ""
+"Collection and prep of Comptroller's quartely reconciliation sign offs with "
+"MS Access App"
+msgstr ""
+"Recogida y preparación de la muestra trimestral offs de la Contraloría "
+"reconciliación con aplicación de MS Access "
+
+#: gsw/templates/gsw/index.html:50
+msgid ""
+"Created and maintained the automated process for SOX compliance to ensure "
+"all manual entry postings to SAP were documented and accounted for"
+msgstr ""
+"Creado y mantenido el proceso automatizado para el cumplimiento de SOX para "
+"asegurar las publicaciones del ingreso manual para SAP se documentaron y "
+"representaron "
+
+#: gsw/templates/gsw/index.html:51
+msgid "General Legder IT Specialist, DuPont Asturias"
+msgstr ""
+
+#: gsw/templates/gsw/index.html:52
+msgid ""
+"Providing IT support and solutions to GL accountants for processing accrual "
+"requests, reconciliations and month end closing processes"
+msgstr ""
+"Proporcionar soporte de TI y soluciones a GL cuentas para el procesamiento "
+"de acumulación solicitudes, conciliaciones y procesos de cierre de fin de mes"
+
+#: gsw/templates/gsw/index.html:53
+msgid "Business Analyst, Chivas Ltd"
+msgstr ""
+
+#: gsw/templates/gsw/index.html:54
+msgid ""
+"Key resource to improve data entry on backlog of invoices into Oracle ERP "
+"database"
+msgstr ""
+"recurso clave para mejorar la entrada de datos en la acumulación de facturas "
+"en base de datos Oracle ERP"
+
+#: gsw/templates/gsw/index.html:99
+msgid "Skills"
+msgstr "Habilidades"
+
+#: gsw/templates/gsw/index.html:100
+msgid "Languages"
+msgstr "Idiomas"
+
+#: gsw/templates/gsw/index.html:145
+msgid "Applications / Frameworks"
+msgstr "Aplicaciones / Frameworks"
+
+#: gsw/templates/gsw/index.html:223
+msgid "Continous Improvements"
+msgstr "Mejoras continuas"
+
+#: gsw/templates/gsw/index.html:224
+msgid "Certifications"
+msgstr "Certificaciones"
+
+#: gsw/templates/gsw/index.html:244
+msgid "Majority of below assignments involved:"
+msgstr "La mayoría de las tareas siguientes que se trate:"
+
+#: gsw/templates/gsw/index.html:245
+msgid "- Collection and analysis from the Voice of the Customer(VOC)"
+msgstr "- Recogida y análisis de la voz del cliente (VOC)"
+
+#: gsw/templates/gsw/index.html:246
+msgid "- Project Charter preperation"
+msgstr "- Preparación carta del proyecto"
+
+#: gsw/templates/gsw/index.html:247
+msgid "- Powerpoint presentations to Sponsors and Senior Management"
+msgstr "- Presentaciones de PowerPoint a los patrocinadores y Alta Dirección"
+
+#: gsw/templates/gsw/index.html:248
+msgid "- Measured anaylsis to justify benefits of proposed solutions"
+msgstr ""
+"- Análisis de medición para justificar beneficios de las soluciones "
+"propuestas"
+
+#: gsw/templates/gsw/index.html:249
+msgid "- Design, testing, and delivery of final solution"
+msgstr "- Diseño, pruebas y entrega de la solución final"
+
+#: gsw/templates/gsw/index.html:250
+msgid "- Documentation and Visual Swimlane maps for new processes"
+msgstr "- Documentación y Swimlane Visual mapas para los nuevos procesos"
+
+#: gsw/templates/gsw/index.html:254
+msgid ""
+"Collobaration on Tableau project for mobile/tablet friendly Business "
+"Reporting dashboards to Global Business Managers"
+msgstr ""
+"Colaboración en el proyecto de Tableau para el móvil / tableta de negocios "
+"Informar a los directores de cuadros de mando de Negocios Globales "
+
+#: gsw/templates/gsw/index.html:255
+msgid ""
+"- ETL solutions to cleanse and prepare consolidated financial data for "
+"loading into Tableau servers, low cost solution to bring mobile/tablet "
+"friendly reporting"
+msgstr ""
+"- Soluciones ETL para limpiar y preparar los datos financieros consolidados "
+"para la carga en los servidores de Tableau, solución de bajo costo para "
+"traer móvil / tablet Los informes de usar"
+
+#: gsw/templates/gsw/index.html:257
+msgid ""
+"Design and develope ETL/Reconciliation app for Asset Accounting data accross "
+"SAP R/3 systems"
+msgstr ""
+"Diseño y desarrollo de ETL / app Reconciliación de los datos contables de "
+"activos a través de sistemas de SAP R/3"
+
+#: gsw/templates/gsw/index.html:258
+msgid ""
+"- Time savings and elminiation of rework and manual data entry errors, "
+"automated reconciliations"
+msgstr ""
+"- Ahorro de tiempo y eliminación de retrabajo y los errores de entrada de "
+"datos manuales, conciliaciones automatizadas"
+
+#: gsw/templates/gsw/index.html:260
+msgid "Creation of SharePoint team sites and control forms"
+msgstr "Creación de bases de SharePoint y formas de control"
+
+#: gsw/templates/gsw/index.html:261
+msgid ""
+"- promote online collobaration during project work, centralised storage for "
+"project documentation"
+msgstr ""
+"- Promover la colaboración en línea durante el trabajo del proyecto, el "
+"almacenamiento centralizado para documentación del proyecto"
+
+#: gsw/templates/gsw/index.html:263
+msgid ""
+"Infocube design and collobaration for the integration of SAP Asset Module to "
+"SAP Business Warehouse"
+msgstr ""
+"Infocube diseño y la colaboración para la integración de SAP módulo de "
+"activos de SAP Business Warehouse"
+
+#: gsw/templates/gsw/index.html:264
+msgid ""
+"- Faster more standardised reporting queries with reduced MS Excel rework"
+msgstr ""
+"- Consultas de información más rápida y estandarizados con la reducción de "
+"la reanudación de MS Excel"
+
+#: gsw/templates/gsw/index.html:266
+msgid "EMEA VAT Netting process automation"
+msgstr "automatización EMEA proceso de compensación del IVA"
+
+#: gsw/templates/gsw/index.html:267
+msgid "- Reduction in FTE resources from 5 to 2"
+msgstr "- Reducción de los recursos FTE de 5 a 2"
+
+#: gsw/templates/gsw/index.html:269
+msgid "Automation of EMEA IntraStat tax reporting"
+msgstr "La automatización de la declaración de impuestos EMEA IntraStat"
+
+#: gsw/templates/gsw/index.html:270
+msgid "- Reduction in FTE resources from 10 to 2"
+msgstr "- Reducción de los recursos FTE de 10 a 2"
+
+#: gsw/templates/gsw/index.html:272
+msgid ""
+"Implementation of Electronic Closing Folder process for EMEA GL team with "
+"automated account reconciliations"
+msgstr ""
+"Aplicación del proceso de cierre de la carpeta electrónica para el equipo de "
+"EMEA con GL conciliaciones de cuentas automatizadas"
+
+#: gsw/templates/gsw/index.html:273
+msgid ""
+"- Removal of paper based reporting and reconciliations to process based on "
+"PDF format"
+msgstr ""
+"- Eliminación de informes basados en papel y conciliaciones de proceso "
+"basado en formato PDF"
+
+#: gsw/templates/gsw/index.html:275
+msgid "Bank Of America/SAP FI-CO reconciliation process digitization"
+msgstr "Bank of America / SAP FI-CO digitalización proceso de reconciliación"
+
+#: gsw/templates/gsw/index.html:276
+msgid ""
+"- Removal of manual paper based reconciliation with a reduction in FTE "
+"resources from 5 to 1"
+msgstr ""
+"- La eliminación de la reconciliación basada manual de papel con una "
+"reducción de FTE recursos de 5 a 1"
+
+#: gsw/templates/gsw/index.html:278
+msgid ""
+"Application to identify Exchange Gain And Loss variances in both "
+"reconciliation and open item accounts"
+msgstr ""
+"Aplicación para identificar Ganancia en Cambio y la pérdida de las "
+"variaciones en tanto reconciliación y cuentas de partidas abiertas"
+
+#: gsw/templates/gsw/index.html:279
+msgid ""
+"- Time savings to EGL processes shortening GL Month End Closing Schedule"
+msgstr ""
+"- Ahorro de tiempo en los procesos de acortamiento de EGL GL fin de mes "
+"Horario de Cierre"
+
+#: gsw/templates/gsw/index.html:281
+msgid ""
+"Extensive refinment and streamlining of SAP Asset Accounting Module "
+"transmisson to DuPont's Global Consolidation Reporting program"
+msgstr ""
+"Extensa refinamiento y la racionalización de SAP módulo de contabilidad de "
+"activos transmisión al programa de Consolidación de Información Global de "
+"DuPont"
+
+#: gsw/templates/gsw/index.html:282
+msgid ""
+"- Gained simplified automated FI-AA reconciliations, times savings reducing "
+"Permanent Investment's Month End Closing"
+msgstr ""
+"- ganados simplificados automatizados conciliaciones FI-AA, tiempos de "
+"ahorro reducción de inversiones Permanente Cierre del Mes"

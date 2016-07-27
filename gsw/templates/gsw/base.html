@@ -39,24 +39,24 @@
 				<span class="icon-bar"></span>
 			    </button>
 			    <!---<a class="navbar-left" href="#"><img src={% static "image.png" %}></a>-->
-			    <a class="navbar-brand" href="/">GSW M.A(Hons) M.A PMP</a>         
+			    <a class="navbar-brand" href="/">GSW <small>M.A(Hons) M.A PMP</small></a>         
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 			    <div class="navbar-form navbar-right">
 			    </div>
 			    <ul class="nav navbar-nav navbar-right">
-				<li class=""><a href="#about" data-toggle="collapse" data-target=".nav-collapse">About</a></li>
-				<li class=""><a href="/apps" data-toggle="collapse" data-target=".nav-collapse">Apps</a></li>
-				<li class=""><a href="/#projects" data-toggle="collapse" data-target=".nav-collapse">Projects</a></li>
-				<li><a href="#footer-main" data-toggle="collapse" data-target=".nav-collapse">Contact</a></li>
+				<li class=""><a href="#about" data-toggle="collapse" data-target=".nav-collapse">{% trans "About" %}</a></li>
+				<li class=""><a href="/apps" data-toggle="collapse" data-target=".nav-collapse">{% trans "Apps" %}</a></li>
+				<li class=""><a href="/#projects" data-toggle="collapse" data-target=".nav-collapse">{% trans "Projects" %}</a></li>
+				<li><a href="#footer-main" data-toggle="collapse" data-target=".nav-collapse">{% trans "Contact" %}</a></li>
 				   {% if user.is_authenticated %}
-					<li><a id="logout" href="/accounts/logout" class="">Sign Out</a></li>
+					<li><a id="logout" href="/accounts/logout" class="">{% trans "Sign Out" %}</a></li>
 				    {% else %} 
-					<li><a id="google_login" href="/accounts/google/login" class="">Sign in</a></li>
+					<li><a id="google_login" href="/accounts/google/login" class="">{% trans "Sign in" %}</a></li>
 				    {% endif %} 
 
 				<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language<span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{% trans "Language" %}<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
 				    {% get_available_languages as languages %}
 				    {% for language in languages %}
@@ -73,44 +73,62 @@
 	{% endblock %}
 	<div>
 	<div id="footer-wrapper" class="container-fluid section-custom">
-	<footer class="clearfix helv-thin">
-		<nav id="footer-main" class="clearfix">
-			<ul id="footer-serv-nav">
-			</ul>
-			<ul id="footer-company-nav">
-			</ul>
-			<ul id="footer-main-nav">
-				<div id="footer-identity" class="clearfix">
-					<div class="logo logo-minimal-small sprite">
-						<h1><a href="/" title="Graeme Stewart Watt">Graeme Stewart Watt</a></h1>
-						<h4 style="text-align:right;">M.A(Hons) M.A PMP</h4>
+		<footer class="clearfix helv-thin">
+			<nav id="footer-main" class="clearfix">
+				<ul id="footer-serv-nav">
+				</ul>
+				<ul id="footer-company-nav">
+				</ul>
+				<ul id="footer-main-nav">
+					<div id="footer-identity" class="clearfix">
+						<div class="logo">
+							<h1><a href="/" title="Graeme Stewart Watt">Graeme Stewart Watt</a></h1>
+							<h4 style="text-align:right;">M.A(Hons) M.A PMP</h4>
+						</div>
 					</div>
-				</div>
-			</ul>
-				<div class="separator"></div>
-				<ul id="footer-contact-nav">
-					<li class="blog"><a href="/blog"><span></span>blog</a></li>
-					<li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
-					<li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
 				</ul>
-				<div class="separator"></div>
-				<ul id="footer-service-nav">
-                       <li></li>
-					   {% if user.is_authenticated %}
-						<li class="lock"><a id="logout" href="/accounts/logout" class="helv-bold">Logout</a></li>
-					    {% else %} 
-						<li class="lock"><a id="google_login" href="/accounts/google/login" class="helv-bold">Login in with Google</a></li>
-					    {% endif %} 
-                        <li></li>
-				</ul>
+					<div class="separator"></div>
+					<ul id="footer-contact-nav">
+						<li class="blog"><a href="/blog"><span></span>blog</a></li>
+						<li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
+						<li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
+					</ul>
+					<div class="separator"></div>
+					<ul id="footer-service-nav">
+						       <li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li>
+
+						<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li>
+						<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li>
+						<!-- <li><a href="https://www.facebook.com/graeme.watt.984" target="_blank"><img src="{% static "logos/facebook.png" %}" alt="facebook"></img></a></li> 
+						   {% if user.is_authenticated %}
+							<li class="lock"><a id="logout" href="/accounts/logout" class="helv-bold">Logout</a></li>
+						    {% else %} 
+							<li class="lock"><a id="google_login" href="/accounts/google/login" class="helv-bold">Login in with Google</a></li>
+						    {% endif %} 
+							<li> </li> -->
+					</ul>
 		</nav>
-	<div id="legal" class="clearfix">
-	<div id="company-info">
-		&copy; Graeme Stewart Watt 2016
-	</div>
-	<div class="separator"></div>
-	<div id="terms-and-conditions"><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
-	</div>
+		<!---
+		<div id="footer-social"  class="container-fluid" >
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4 custom-margin4 social-icons" style="float: none; margin: 0 auto;" >
+					<a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a>
+					<a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a>
+					<a href="https://www.facebook.com/graeme.watt.984" target="_blank"><img src="{% static "logos/facebook.png" %}" alt="facebook"></img></a>
+				</div>
+				<div class="col-md-4">
+				</div>
+			<br></br>
+		</div>
+		-->
+		<div id="cw" class="clearfix">
+			<div id="company-info">
+				&copy; Graeme Stewart Watt 2016
+			</div>
+			<div class="separator"></div>
+			<div id="terms-and-conditions"><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
+		</div>
 	</footer>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

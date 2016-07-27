@@ -49,6 +49,10 @@ body {
     margin-left: 20%;
     margin-right:20%;
 }
+.custom-margin4 {
+	margin-left: 20%;
+	margin-right: 20%;
+}
 .custom-container-fluid {
     text-align: center;
     padding:0;
@@ -218,28 +222,28 @@ outline: .1px solid #CAD5DA;
 #footer-wrapper footer #footer-features .compare {
     margin-top: 10px
 }
-#footer-wrapper footer #legal {
+#footer-wrapper footer #cw {
     display: table;
     margin: 0 auto 35px auto;
     height: 3em;
     font-size: 11px
 }
-#footer-wrapper footer #legal #company-info,
-#footer-wrapper footer #legal #terms-and-conditions {
+#footer-wrapper footer #cw #company-info ,
+#footer-wrapper footer #cw #terms-and-conditions #footer-social {
     display: table-cell;
     line-height: 1.5em;
     letter-spacing: 0.1em;
     vertical-align: middle
 }
-#footer-wrapper footer #legal #company-info,
-#footer-wrapper footer #legal .separator {
+#footer-wrapper footer #cw #company-info ,
+#footer-wrapper footer #cw .separator {
     padding-right: 20px
 }
-#footer-wrapper footer #legal #company-info {
+#footer-wrapper footer #cw #company-info {
     text-align: right
 }
-#footer-wrapper footer #legal #company-info,
-#footer-wrapper footer #legal #terms-and-conditions a {
+#footer-wrapper footer #cw #company-info,
+#footer-wrapper footer #cw #terms-and-conditions a {
     color: #bbb
 }
 #footer-wrapper footer #footer-identity {
@@ -260,12 +264,12 @@ outline: .1px solid #CAD5DA;
     color: #aaaaaa;
     text-shadow: 0px 1px 0px #fff
 }
-#footer-wrapper footer #legal #company-info,
-#footer-wrapper footer #legal #terms-and-conditions {
+#footer-wrapper footer #cw #company-info,
+#footer-wrapper footer #cw #terms-and-conditions {
     color: #aaaaaa
 }
-#footer-wrapper footer #legal #company-info a,
-#footer-wrapper footer #legal #terms-and-conditions a {
+#footer-wrapper footer #cw #company-info a,
+#footer-wrapper footer #cw #terms-and-conditions a {
     color: #aaaaaa
 }
 * {margin: 0; padding: 0;}
@@ -314,10 +318,27 @@ padding-bottom: 10px;
 #splash h2 {
     text-align: right;
 }
-#CI_list li {
-list-style: none;
+#CI_list ul {
+
+}
+#CI_list h4 {
 text-align: left; 
+}
+#CI_list dl {
+text-align: left;
 }
 #about p {
 text-align: justify;
+}
+#footer-service-nav {
+list-style: none;
+display: block;
+}
+#highlights {
+list-style:none;
+}
+.social-icons {
+list-style: none;
+display: table;
+vertical-align: middle;
 }
