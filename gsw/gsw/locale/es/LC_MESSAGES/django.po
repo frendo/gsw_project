@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-27 19:00+0200\n"
+"POT-Creation-Date: 2016-07-28 10:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: gsw/settings/base.py:129
+#: gsw/settings/base.py:128
 msgid "English"
 msgstr ""
 
-#: gsw/settings/base.py:130
+#: gsw/settings/base.py:129
 msgid "Castellano"
 msgstr ""
 
-#: gsw/templates/gsw/base.html:48 gsw/templates/gsw/index.html:20
+#: gsw/templates/gsw/base.html:50 gsw/templates/gsw/index.html:20
 msgid "About"
 msgstr "Sobre"
 
-#: gsw/templates/gsw/base.html:49
+#: gsw/templates/gsw/base.html:51
 msgid "Apps"
 msgstr "Apps"
 
-#: gsw/templates/gsw/base.html:50 gsw/templates/gsw/index.html:60
+#: gsw/templates/gsw/base.html:52 gsw/templates/gsw/index.html:60
 msgid "Projects"
 msgstr "Proyectos"
 
-#: gsw/templates/gsw/base.html:51
+#: gsw/templates/gsw/base.html:53
 msgid "Contact"
 msgstr "Contacto"
 
-#: gsw/templates/gsw/base.html:53
+#: gsw/templates/gsw/base.html:55
 msgid "Sign Out"
 msgstr "Desconectar"
 
-#: gsw/templates/gsw/base.html:55
+#: gsw/templates/gsw/base.html:57
 msgid "Sign in"
 msgstr "Conectar"
 
-#: gsw/templates/gsw/base.html:59
+#: gsw/templates/gsw/base.html:61
 msgid "Language"
 msgstr "Idioma"
 
@@ -141,8 +141,7 @@ msgstr ""
 "centro servicio Finanzas de servicios Financieros "
 
 #: gsw/templates/gsw/index.html:38
-msgid ""
-"Daily IT support to the team of 18 Fixed Asset Accountants and Supervisors"
+msgid "Daily IT support to team of 18 Fixed Asset Accountants and Supervisors"
 msgstr ""
 "soporte de TI a diario para el equipo de 18 Fijo Contadores de activos y "
 "Supervisores "
@@ -196,8 +195,8 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:48
 msgid ""
-"Designed and implemented automated process for SOX compliance to ensure all "
-"manual entry postings to SAP were documented and accounted for"
+"Designed and implemented automated SOX compliance process to ensure "
+"accountablity of SAP manual entry postings"
 msgstr ""
 "Creado y mantenido el proceso automatizado para el cumplimiento de SOX para "
 "asegurar las publicaciones del ingreso manual para SAP se documentaron y "
@@ -209,8 +208,8 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:51
 msgid ""
-"Providing IT support and solutions to GL accountants for processing accrual "
-"requests, reconciliations and month end closing processes"
+"Providing IT support and solutions to GL accountants for processing accruals "
+"and month end closing processes"
 msgstr ""
 "Proporcionar soporte de TI y soluciones a GL cuentas para el procesamiento "
 "de acumulación solicitudes, conciliaciones y procesos de cierre de fin de mes"

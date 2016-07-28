@@ -1,8 +1,8 @@
 {% extends 'gsw/base.html' %}
 {% load staticfiles %}
 {% block content %}
-<div class="jumbotron jumbotron-custom">
-	<div class="container-fluid custom-container-fluid">
+<div id="project_detail" class="jumbotron jumbotron-custom">
+	<div  class="container-fluid custom-container-fluid">
 		{% if project.published_date %}
 		    <div class="date">
 			{{ project.published_date }}

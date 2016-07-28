@@ -76,6 +76,14 @@ outline: .1px solid #CAD5DA;
 #projects {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #F7F9FA;}
 #skills {padding-top:50px;height:auto;color: #444444; background-color: #F2F9FF;}
 #ContinuousImprovements{padding-top:50px;height:auto;color: #444444; background-color: #FFFFFF;}
+#project_detail {
+color: #444444; 
+background-color: #FAFBFD;
+background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #footer-wrapper {
     /*width: 100%;*/
     min-height: 400px;
