@@ -2,6 +2,7 @@
 {% load staticfiles %}
 {% load i18n %}
 {% block content %}
+{% load projects_extras %}
 
 	<div class="jumbotron bgimg jumbotron-custom">
 	    <div id="splash" class="custom-margin3">
@@ -79,9 +80,11 @@
                             <div class="item">
 			        <h4><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h4>
 				<ul id="highlights" class="footer-contact-nav">
-				{% for highlight in project.highlightsArray %}
-					<li>{{ highlight }} </li>
-				{% endfor %}	
+					{% get_current_language as LANGUAGE_CODE %}
+					{% get_translation LANGUAGE_CODE project.highlightsArray as translated_highlights %} 
+					{% for highlight in translated_highlights %}
+						<li> {{ highlight }} </li>
+                                        {% endfor %}
 				</ul>
                             </div>
                         </div>

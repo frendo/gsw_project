@@ -16,6 +16,7 @@ class Project(models.Model):
     def highlightsArray(self):
         highlightsArr = self.highlights.split(';')
         return highlightsArr
+    
 
     def publish(self):
         self.completed_date = timezone.now()
