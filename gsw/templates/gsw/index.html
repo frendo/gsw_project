@@ -59,6 +59,23 @@
 </div>
 <div id="projects" class="container-fluid section-custom">
     <h1>{% trans "Projects" %}</h1>
+    <div class="custom-margin4">
+	<dl class="roles">
+	    <dt>{% trans "Planning" %}</dt>
+	    <dd>{% trans "Identify requirements, both US GAAP and local accounting needs based on scope of legal entity structure provided by Tax and Corporate Accounting" %}</dd>
+	    <dd>{% trans "Transform the collected project information into a project management plan" %}</dd>
+	    <dd>{% trans "Align and connect Fixed Asset design for project scope appropriately with the other processes/work streams to facilitate coordination" %}</dd>
+	    <dd>{% trans "Prepare cut over plan managing project scope to meet sponsor, customer and other stakeholder requirements and project objectives" %}</dd>
+	    <dd>{% trans "Identifying potential risks that could impact the global cut over plan" %}</dd>
+	    <dt>{% trans "Organization" %}</dt>
+	    <dd>{% trans "Meetings/presentations with stakeholders and sponsors to convey corporate strategy and objectives from the project" %}</dd>
+	    <dd>{% trans "Lead daily calls for communication with the various stakeholders affected by the new architecture design" %}</dd>
+	    <dd>{% trans "Track, review and regulate the progress and performance of the project, identify any areas in which changes to the plan are required; and initiate the corresponding changes" %}</dd>
+	    <dt>{% trans "People Management" %}</dt>
+            <dd>{% trans "Assign detailed project deliverables to outside consultants to meet the needs of the project" %}</dd>
+            <dd>{% trans "Good relations with the operational stakeholders throughout all stages of the project from BIT, USAT to Go-live to have continuous feedback from them" %}</dd>
+	</dl>
+    </div>
     <div class="custom-margin3">
         {% for project in projects %}
             {% if forloop.first %}
