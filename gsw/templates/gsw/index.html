@@ -6,7 +6,7 @@
 
 	<div class="jumbotron bgimg jumbotron-custom">
 	    <div id="splash" class="custom-margin3">
-		<h1>{% trans "International IT SAP Finance Consultant" %}</h1>
+		<h1>{% trans "IT SAP Finance Consultant" %}</h1>
 		<h2>{% trans "IT Solution Delivery to Financial Services" %}</h2>
 		<h2>{% trans "Business Process Improvements and Refinement" %}</h2>
 		<h2>{% trans "Continuous Improvement based on Data Driven Analysis" %}</h2>
@@ -42,15 +42,15 @@
 		<dd>{% trans "Fixed Asset Position Paper Owner" %}</dd>
 		<dd>{% trans "Consultant on weekly Finance Architecture Review Meetings" %}</dd>
 		<dd>{% trans "Master Data Owner for Asset Class, Chart of Depreciations, FA GL accounts" %}</dd>
-		<br>
+		<hr>
 		<dt>{% trans "Account Reconciliation System (ARS) Database administrator, DuPont Asturias" %}</dt>
 		<dd>{% trans "Run and maintain of SQL server application for timely Month end sign offs" %}</dd>
 		<dd>{% trans "Collection and prep of Comptrollers' quarterly reconciliation sign offs with MS Access App" %}</dd>
 		<dd>{% trans "Designed and implemented automated SOX compliance process to ensure accountability of SAP manual entry postings" %}</dd>
-		<br>
+		<hr>
 		<dt>{% trans "General Ledger IT Specialist, DuPont Asturias" %}</dt>
 		<dd>{% trans "Providing IT support and solutions to GL accountants for processing accruals and month end closing processes" %}</dd>
-		<br>
+		<hr>
 		<dt>{% trans "Business Analyst, Chivas Ltd" %}</dt>
 		<dd>{% trans "Key resource to improve data entry on backlog of invoices into Oracle ERP database" %}</dd>
 	</dl>
@@ -67,16 +67,19 @@
 	    <dd>{% trans "Align and connect Fixed Asset design for project scope appropriately with the other processes/work streams to facilitate coordination" %}</dd>
 	    <dd>{% trans "Prepare cut over plan managing project scope to meet sponsor, customer and other stakeholder requirements and project objectives" %}</dd>
 	    <dd>{% trans "Identifying potential risks that could impact the global cut over plan" %}</dd>
+	    <hr>
 	    <dt>{% trans "Organization" %}</dt>
 	    <dd>{% trans "Meetings/presentations with stakeholders and sponsors to convey corporate strategy and objectives from the project" %}</dd>
 	    <dd>{% trans "Lead daily calls for communication with the various stakeholders affected by the new architecture design" %}</dd>
 	    <dd>{% trans "Track, review and regulate the progress and performance of the project, identify any areas in which changes to the plan are required; and initiate the corresponding changes" %}</dd>
 	    <dt>{% trans "People Management" %}</dt>
+            <hr>
             <dd>{% trans "Assign detailed project deliverables to outside consultants to meet the needs of the project" %}</dd>
             <dd>{% trans "Good relations with the operational stakeholders throughout all stages of the project from BIT, USAT to Go-live to have continuous feedback from them" %}</dd>
 	</dl>
     </div>
     <div class="custom-margin3">
+	<hr>
         {% for project in projects %}
             {% if forloop.first %}
                 <div class="row">
