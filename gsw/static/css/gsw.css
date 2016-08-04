@@ -153,8 +153,8 @@ background-image: url(../img/jumbotronbackground.jpg);
     font-size: 1.2em
 }
 #footer-wrapper footer #footer-main ul#footer-main-nav a,
-#footer-wrapper footer #footer-main ul#footer-serv-nav a,
-#footer-wrapper footer #footer-main ul#footer-company-nav a {
+#footer-wrapper footer #footer-main ul#footer-a1-nav a,
+#footer-wrapper footer #footer-main ul#footer-a2-nav a {
     color: #222
 }
 #footer-wrapper footer #footer-main ul#footer-main-nav #footer-identity {
@@ -174,11 +174,11 @@ background-image: url(../img/jumbotronbackground.jpg);
     top: -1px;
     left: -1px
 }
-#footer-wrapper footer #footer-main ul#footer-serv-nav,
-#footer-wrapper footer #footer-main ul#footer-company-nav,
+#footer-wrapper footer #footer-main ul#footer-a1-nav,
+#footer-wrapper footer #footer-main ul#footer-a2-nav,
 #footer-wrapper footer #footer-main ul#footer-main-nav {
     margin-top: 25px;
-    min-width: 114px
+    min-width: 114px;
 }
 #footer-wrapper footer #footer-main ul#footer-contact-nav,
 #footer-wrapper footer #footer-main ul#footer-service-nav {
@@ -238,7 +238,7 @@ background-image: url(../img/jumbotronbackground.jpg);
     font-size: 11px
 }
 #footer-wrapper footer #cw #company-info ,
-#footer-wrapper footer #cw #terms-and-conditions #footer-social {
+#footer-wrapper footer #cw #creation #footer-social {
     display: table-cell;
     line-height: 1.5em;
     letter-spacing: 0.1em;
@@ -252,7 +252,7 @@ background-image: url(../img/jumbotronbackground.jpg);
     text-align: right
 }
 #footer-wrapper footer #cw #company-info,
-#footer-wrapper footer #cw #terms-and-conditions a {
+#footer-wrapper footer #cw #creation a {
     color: #bbb
 }
 #footer-wrapper footer #footer-identity {
@@ -265,8 +265,8 @@ background-image: url(../img/jumbotronbackground.jpg);
     display: block
 }
 #footer-wrapper footer #footer-main ul#footer-main-nav li a,
-#footer-wrapper footer #footer-main ul#footer-serv-nav li a,
-#footer-wrapper footer #footer-main ul#footer-company-nav li a {
+#footer-wrapper footer #footer-main ul#footer-a1-nav li a,
+#footer-wrapper footer #footer-main ul#footer-a2-nav li a {
     text-shadow: 0px 1px 0px #fff
 }
 #footer-wrapper footer #footer-features ul li a {
@@ -274,11 +274,11 @@ background-image: url(../img/jumbotronbackground.jpg);
     text-shadow: 0px 1px 0px #fff
 }
 #footer-wrapper footer #cw #company-info,
-#footer-wrapper footer #cw #terms-and-conditions {
+#footer-wrapper footer #cw #creation {
     color: #aaaaaa
 }
 #footer-wrapper footer #cw #company-info a,
-#footer-wrapper footer #cw #terms-and-conditions a {
+#footer-wrapper footer #cw #creation a {
     color: #aaaaaa
 }
 * {margin: 0; padding: 0;}

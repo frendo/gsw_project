@@ -24,8 +24,15 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href={% static "css/gsw.css" %}>
     <title>Graeme Stewart Watt - IT Finance Consultant</title>
-    <style>    
-    </style>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	    e.src='//www.google-analytics.com/analytics.js';
+	    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+	</script>
   </head>
   <body id="index" class="helv-thin">
      <!--[if lt IE 8]>
@@ -76,10 +83,11 @@
 	<div id="footer-wrapper" class="container-fluid section-custom">
 		<footer class="clearfix helv-thin">
 			<nav id="footer-main" class="clearfix">
-				<ul id="footer-serv-nav">
+				<!--- <ul id="footer-a1-nav">
 				</ul>
-				<ul id="footer-company-nav">
-				</ul>
+				<ul id="footer-a2-nav">
+				</ul> -->
+				<div class="custom-margin4">
 				<ul id="footer-main-nav">
 					<div id="footer-identity" class="clearfix">
 						<div class="logo">
@@ -88,47 +96,33 @@
 						</div>
 					</div>
 				</ul>
-					<div class="separator"></div>
-					<ul id="footer-contact-nav">
-						<li class="blog"><a href="/blog"><span></span>blog</a></li>
-						<li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
-						<li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
-					</ul>
-					<div class="separator"></div>
-					<ul id="footer-service-nav">
-						       <li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li>
-
-						<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li>
-						<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li>
-						<!-- <li><a href="https://www.facebook.com/graeme.watt.984" target="_blank"><img src="{% static "logos/facebook.png" %}" alt="facebook"></img></a></li> 
-						   {% if user.is_authenticated %}
-							<li class="lock"><a id="logout" href="/accounts/logout" class="helv-bold">Logout</a></li>
-						    {% else %} 
-							<li class="lock"><a id="google_login" href="/accounts/google/login" class="helv-bold">Login in with Google</a></li>
-						    {% endif %} 
-							<li> </li> -->
-					</ul>
+				<div class="separator"></div>
+				<ul id="footer-contact-nav">
+					<li class="blog"><a href="/blog"><span></span>blog</a></li>
+					<li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
+					<li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
+				</ul>
+				<div class="separator"></div>
+				<ul id="footer-service-nav">
+					<li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li>
+					<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li>
+					<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li>
+					<!-- <li><a href="https://www.facebook.com/graeme.watt.984" target="_blank"><img src="{% static "logos/facebook.png" %}" alt="facebook"></img></a></li> 
+					   {% if user.is_authenticated %}
+						<li class="lock"><a id="logout" href="/accounts/logout" class="helv-bold">Logout</a></li>
+					    {% else %} 
+						<li class="lock"><a id="google_login" href="/accounts/google/login" class="helv-bold">Login in with Google</a></li>
+					    {% endif %} 
+						<li> </li> -->
+				</ul>
+			</div>
 		</nav>
-		<!---
-		<div id="footer-social"  class="container-fluid" >
-				<div class="col-md-4">
-				</div>
-				<div class="col-md-4 custom-margin4 social-icons" style="float: none; margin: 0 auto;" >
-					<a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a>
-					<a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a>
-					<a href="https://www.facebook.com/graeme.watt.984" target="_blank"><img src="{% static "logos/facebook.png" %}" alt="facebook"></img></a>
-				</div>
-				<div class="col-md-4">
-				</div>
-			<br></br>
-		</div>
-		-->
 		<div id="cw" class="clearfix">
 			<div id="company-info">
-				&copy; Graeme Stewart Watt 2016
+				&copy; Graeme Stewart Watt {% now "Y" %}
 			</div>
 			<div class="separator"></div>
-			<div id="terms-and-conditions"><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
+			<div id="company-info"><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
 		</div>
 	</footer>
 	</div>
@@ -136,14 +130,5 @@
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 	<script src={% static "js/vendor/bootstrap.min.js" %}></script>
 	<script src={% static "js/main.js" %}></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
 </body>
 </html>

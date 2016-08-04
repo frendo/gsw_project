@@ -1,7 +1,7 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
-from .views import home, home_files
+from .views import home, home_files, sw_js
 
 from django.conf import settings
 from django.conf.urls.static import static
@@ -12,6 +12,7 @@ urlpatterns = [
      	home_files, name='home_files'),
     url(r'^accounts/logout/$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
 	url(r'^accounts/', include('allauth.urls')),
+	url(r'^service-worker(.*.js)$', sw_js, name='sw_js'),
 ]
 
 #urlpatterns += static(settings.base.MEDIA_URL, document_root=settings.base.MEDIA_ROOT)
