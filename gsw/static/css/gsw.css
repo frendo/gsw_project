@@ -218,7 +218,7 @@ text-decoration: none;
 }
 #social {
 	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 90px;
 }
 
 li.telephone { 
@@ -292,4 +292,7 @@ border-left: 0.5px solid #CAD5DA;
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.item {
+height:auto;
 }

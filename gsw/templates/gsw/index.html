@@ -121,7 +121,7 @@
 							</div>
 							<div class="item">
 							<h4><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></h4>
-							<ul id="highlights" class="footer-contact-nav">
+							<ul id="highlights" class="">
 								{% get_current_language as LANGUAGE_CODE %}
 								{% get_translation LANGUAGE_CODE project.highlightsArray as translated_highlights %} 
 								{% for highlight in translated_highlights %}
