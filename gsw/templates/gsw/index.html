@@ -91,8 +91,8 @@
 					<dd>{% trans "Meetings/presentations with stakeholders and sponsors to convey corporate strategy and objectives from the project" %}</dd>
 					<dd>{% trans "Lead daily calls for communication with the various stakeholders affected by the new architecture design" %}</dd>
 					<dd>{% trans "Track, review and regulate the progress and performance of the project, identify any areas in which changes to the plan are required; and initiate the corresponding changes" %}</dd>
-					<dt>{% trans "People Management" %}</dt>
 					<hr>
+					<dt>{% trans "People Management" %}</dt>
 					<dd>{% trans "Assign detailed project deliverables to outside consultants to meet the needs of the project" %}</dd>
 					<dd>{% trans "Good relations with the operational stakeholders throughout all stages of the project from BIT, USAT to Go-live to have continuous feedback from them" %}</dd>
 				</dl>
@@ -108,12 +108,7 @@
 			<div class="col-sm-8">
 				<br>
 				{% for project in projects %}
-					{% if forloop.first %}
-					<div class="row">
-					{% elif forloop.counter|divisibleby:4 %}
-					<div class="row">
-					{% endif %}
-					<div class="col-sm-4">
+					{% if forloop.first %} <div class="row"> {% endif %} <div class="col-sm-4">
 					<div id="tile{{forloop.counter}}" class="tile tile-square-y">
 						<div class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
@@ -139,7 +134,7 @@
 					</div>
 					</div>
 					{% if forloop.first %}
-					{% elif forloop.counter|divisibleby:3 %}</div>{% endif %}
+					{% elif forloop.counter|divisibleby:3 %}</div><div class="row">{% endif %}
 				{% endfor %}
 				</div>
 		<div class="col-sm2"></div>
@@ -160,38 +155,38 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://msdn.microsoft.com/en-us/library/k1s94fta(v=vs.71).aspx" target="_blank"><img class="img-responsive" src={% static "logos/vb_net.png" %} alt="vb_net logo" /></a>
+						<a href="https://msdn.microsoft.com/en-us/library/k1s94fta(v=vs.71).aspx" target="_blank"><img class="img-responsive center-block" src={% static "logos/vb_net.png" %} alt="vb_net logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.python.org/" target="_blank"><img class="img-responsive" src={% static "logos/python.png" %} alt="python logo" /></a>
+						<a href="https://www.python.org/" target="_blank"><img class="img-responsive center-block" src={% static "logos/python.png" %} alt="python logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank"><img class="img-responsive" src={% static "logos/html5.png" %} alt="html5 logo" /></a>
+						<a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank"><img class="img-responsive center-block" src={% static "logos/html5.png" %} alt="html5 logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://developer.mozilla.org/en/docs/Web/CSS/CSS3" target="_blank"><img class="img-responsive" src={% static "logos/css3.png" %} alt="css3 logo" /></a>
+						<a href="https://developer.mozilla.org/en/docs/Web/CSS/CSS3" target="_blank"><img class="img-responsive center-block" src={% static "logos/css3.png" %} alt="css3 logo" /></a>
 					</div>
 				</div>
 					
 					<div class="row"> 
 						<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://jquery.com/" target="_blank"><img class="img-responsive" src={% static "logos/jquery.png" %} alt="jquery logo" /></a>
+						<a href="https://jquery.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/jquery.png" %} alt="jquery logo" /></a>
 						</div>
 						<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://www.w3schools.com/sql/" target="_blank"><img class="img-responsive" src={% static "logos/sql.png" %} alt="sql logo" /></a>
+						<a href="http://www.w3schools.com/sql/" target="_blank"><img class="img-responsive center-block" src={% static "logos/sql.png" %} alt="sql logo" /></a>
 						</div>
 						<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://tools.hana.ondemand.com/#abap" target="_blank"><img class="img-responsive" src={% static "logos/sapabap.png" %} alt="sap abap logo" /></a>
+						<a href="https://tools.hana.ondemand.com/#abap" target="_blank"><img class="img-responsive center-block" src={% static "logos/sapabap.png" %} alt="sap abap logo" /></a>
 						</div>
 							<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://regexr.com/" target="_blank"><img class="img-responsive" src={% static "logos/regex.png" %} alt="regex logo" /></a>
+						<a href="http://regexr.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/regex.png" %} alt="regex logo" /></a>
 						</div>
 					</div>
 <!---***************************-->
@@ -203,19 +198,19 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://go.sap.com/index.html" target="_blank"><img class="img-responsive" src={% static "logos/SAP.png" %} alt="sap logo" /></a>
+						<a href="http://go.sap.com/index.html" target="_blank"><img class="img-responsive center-block" src={% static "logos/SAP.png" %} alt="sap logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://hana.sap.com/abouthana.html" target="_blank"><img class="img-responsive" src={% static "logos/saphana.png" %} alt="sap hana logo" /></a>
+						<a href="https://hana.sap.com/abouthana.html" target="_blank"><img class="img-responsive center-block" src={% static "logos/saphana.png" %} alt="sap hana logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://go.sap.com/uk/product/financial-mgmt/bpc.html" target="_blank"><img class="img-responsive" src={% static "logos/sapbpc.png" %} alt="sap bpc logo" /></a>
+						<a href="http://go.sap.com/uk/product/financial-mgmt/bpc.html" target="_blank"><img class="img-responsive center-block" src={% static "logos/sapbpc.png" %} alt="sap bpc logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://support.sap.com/solution-manager.html" target="_blank"><img class="img-responsive" src={% static "logos/sapsolman.png" %} alt="sap solution manager logo" /></a>
+						<a href="https://support.sap.com/solution-manager.html" target="_blank"><img class="img-responsive center-block" src={% static "logos/sapsolman.png" %} alt="sap solution manager logo" /></a>
 					</div>
 				</div>
 
@@ -223,19 +218,19 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://www.tableau.com/" target="_blank"><img class="img-responsive" src={% static "logos/tableau.png" %} alt="tableau logo" /></a>
+						<a href="http://www.tableau.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/tableau.png" %} alt="tableau logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://products.office.com/en-gb/access" target="_blank"><img class="img-responsive" src={% static "logos/access.png" %} alt="Microsoft Access logo" /></a>
+						<a href="https://products.office.com/en-gb/access" target="_blank"><img class="img-responsive center-block" src={% static "logos/access.png" %} alt="Microsoft Access logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://products.office.com/en-gb/excel" target="_blank"><img class="img-responsive" src={% static "logos/excel.png" %} alt="Microsoft Excel logo" /></a>
+						<a href="https://products.office.com/en-gb/excel" target="_blank"><img class="img-responsive center-block" src={% static "logos/excel.png" %} alt="Microsoft Excel logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://products.office.com/en-gb/sharepoint" target="_blank"><img class="img-responsive" src={% static "logos/sharepoint.png" %} alt="Microsoft SharePoint logo" /></a>
+						<a href="https://products.office.com/en-gb/sharepoint" target="_blank"><img class="img-responsive center-block" src={% static "logos/sharepoint.png" %} alt="Microsoft SharePoint logo" /></a>
 					</div>
 				</div>
 
@@ -244,19 +239,19 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://azure.microsoft.com/" target="_blank"><img class="img-responsive" src={% static "logos/azure.png" %} alt="Microsoft Azure logo" /></a>
+						<a href="https://azure.microsoft.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/azure.png" %} alt="Microsoft Azure logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.djangoproject.com/" target="_blank"><img class="img-responsive" src={% static "logos/django.png" %} alt="django logo" /></a>
+						<a href="https://www.djangoproject.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/django.png" %} alt="django logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://github.com/" target="_blank"><img img class="img-responsive" src={% static "logos/github.png" %} alt="github logo" /></a>
+						<a href="https://github.com/" target="_blank"><img img class="img-responsive center-block" src={% static "logos/github.png" %} alt="github logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.postgresql.org/" target="_blank"><img class="img-responsive" src={% static "logos/postgresql.png" %} alt="postgresql logo" /></a>
+						<a href="https://www.postgresql.org/" target="_blank"><img class="img-responsive center-block" src={% static "logos/postgresql.png" %} alt="postgresql logo" /></a>
 					</div>
 				</div>
 
@@ -266,19 +261,19 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://www.minitab.com/" target="_blank"><img class="img-responsive" src={% static "logos/minitab.png" %} alt="minitab logo" /></a>
+						<a href="http://www.minitab.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/minitab.png" %} alt="minitab logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="http://getbootstrap.com/" target="_blank"><img class="img-responsive" src={% static "logos/bootstrap.png" %} alt="bootstrap logo" /></a>
+						<a href="http://getbootstrap.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/bootstrap.png" %} alt="bootstrap logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.linux.com/" target="_blank"><img class="img-responsive" src={% static "logos/linux.png" %} alt="linux logo" /></a>
+						<a href="https://www.linux.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/linux.png" %} alt="linux logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://aws.amazon.com/" target="_blank"><img class="img-responsive" src={% static "logos/aws.png" %} alt="aws logo" /></a>
+						<a href="https://aws.amazon.com/" target="_blank"><img class="img-responsive center-block" src={% static "logos/aws.png" %} alt="aws logo" /></a>
 					</div>
 				</div>
 
@@ -311,11 +306,11 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.isixsigma.com" target="_blank"><img class="img-responsive" src={% static "logos/sixsigmagb.png" %} alt="Six Sigma Green Belt logo" /></a>
+						<a href="https://www.isixsigma.com" target="_blank"><img class="img-responsive center-block" src={% static "logos/sixsigmagb.png" %} alt="Six Sigma Green Belt logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
-						<a href="https://www.isixsigma.com/new-lean-six-sigma/" target="_blank"><img class="img-responsive" src={% static "logos/leanSixSigma.png" %} alt="Six Sigma Lean logo" /></a>
+						<a href="https://www.isixsigma.com/new-lean-six-sigma/" target="_blank"><img class="img-responsive center-block" src={% static "logos/leanSixSigma.png" %} alt="Six Sigma Lean logo" /></a>
 					</div>
 					<div class="col-sm-3">
 						<div class="dummy"></div>
