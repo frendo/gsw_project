@@ -35,8 +35,8 @@
 	<div class="container-fluid">
 	<nav id="vbar" class="navbar navbar-default">
 		<div  class="row">
-			<div class="col-sm-2"></div>	
-			<div class="col-sm-4">
+			<div class="col-mz-1 col-lg-2"></div>	
+			<div class="col-sm-6 col-md-6 col-lg-4">
 				<div class="navbar-header">		
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4">
+			<div class="col-sm-6 col-md-6 col-lg-4">
 				<div class="collapse navbar-collapse" id="myNavbar">			
 					{% get_current_language as LANGUAGE_CODE %}
 					<ul class="nav navbar-nav navbar-right">
@@ -66,7 +66,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-sm-2"></div>
+			<div class="col-lg-2"></div>
 		</div>
 	</nav>
 	</div>	
@@ -75,46 +75,43 @@
 	{% endblock %}
 
 	<footer>
-	<div class="container-fluid">
-	<div class="row">
-	    <div id="footer-wrapper" class="col-sm-12">
-		<div class="row row-footer">
-		    <div class="col-sm-2"></div>
-		    <div id="footer-header" class="col-sm-4">
+
+
+	<div id="footer-wrapper" class="container-fluid">
+		
+		<div class="col-sm-1"></div>
+		<div id="footer-header" class="col-sm-4">
 			    <h1><a href="/" title="Graeme Stewart Watt">Graeme Stewart Watt</a></h1>
 			    <h4 style="text-align:right;">M.A(Hons) M.A PMP</h4>
-		    </div>
-		    <div id="social" class="col-sm-2 left-edge">
-			    <ul id=""> 
-				<li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li> 
-				<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li> 
-				<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li> 
-			    </ul>
-                    </div>
-		    <div id="contac" class="col-sm-2 left-edge">
-			    <ul>
-				    <li class="blog"><a href="/blog"><span></span>blog</a></li>
-				    <li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
-				    <li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> 
-				    <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
-			    </ul>
-		    </div>
-		    <div class="col-sm-2"></div>
+		</div>
+		<div id="contac" class="col-sm-3 left-edge">		    
+		     <ul>
+			    <li class="blog"><a href="/blog"><span></span>blog</a></li>
+			    <li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
+			    <li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> 
+			    <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
+		    </ul>
 		</div>
 
-		<div class="row">
-			<div class="col-sm-4"></div>
-			<div id="copy-info" class="col-sm-4">
-				<div id="x"> 
-					&copy; Graeme Stewart Watt {% now "Y" %}     
-				</div>
-				<div class="separator"></div>
-				<div id="y" ><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
-			</div>
-			<div class="col-sm-4"></div>
+		<div id="social" class="col-sm-3 left-edge">
+		    <ul id=""> 
+			<li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li> 
+			<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li> 
+			<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li> 
+		    </ul>
 		</div>
-	    </div>
-	</div>
+		<div class="col-sm-1"></div>
+		<div class="container-fluid">
+				<div class="col-sm-3 col-md-4"></div>
+				<div id="copy-info" class="col-sm-8 col-md-4">
+					<div id="x"> 
+						&copy; Graeme Stewart Watt {% now "Y" %}     
+					</div>
+					<div class="separator"></div>
+					<div id="y" ><a href="https://www.djangoproject.com" target="_blank">Powered by Django and PostgreSQL</a></div>
+				</div>
+				<div class="col-sm-1 col-md-4"></div>
+		</div>
 	</div>
 	</footer>
 </body>

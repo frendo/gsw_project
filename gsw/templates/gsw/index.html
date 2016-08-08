@@ -108,7 +108,8 @@
 			<div class="col-sm-8">
 				<br>
 				{% for project in projects %}
-					{% if forloop.first %} <div class="row"> {% endif %} <div class="col-sm-4">
+					{% if forloop.first %} <div class="row"> {% endif %} 
+					<div class="col-sm-4">
 					<div id="tile{{forloop.counter}}" class="tile tile-square-y">
 						<div class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
@@ -136,11 +137,11 @@
 					{% if forloop.first %}
 					{% elif forloop.counter|divisibleby:3 %}</div><div class="row">{% endif %}
 				{% endfor %}
-				</div>
+			</div>
 		<div class="col-sm2"></div>
 	</div>
 </div>
-
+</div>
 <div class="container-fluid">
 	<!---***************************-->
 	<div class="col-sm-12 section-custom"></div> 
