@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="../../static/css/reset.css" type="text/css">
+	<!--- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="../../static/css/gsw.css" type="text/css"> 
+</head>
+<body>
+	<nav>
+		<div id="myNavbar" class="row">
+
+			<div class="column column-5 nav-logo">
+				<a class="" href="/">GSW <small>M.A(Hons) M.A PMP</small></a>
+			</div>
+
+
+			<div class="column column-7 nav-menu">
+				
+				<!--- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> -->
+				
+				<ul class="dropdown">
+					<li class=""><a href="/./{{ LANGUAGE_CODE }}/#about" data-toggle="collapse" data-target=".nav-collapse">{% trans "About" %}</a></li>
+					<li class=""><a href="/./{{ LANGUAGE_CODE }}/#projects" data-toggle="collapse" data-target=".nav-collapse">{% trans "Projects" %}</a></li>
+					<li class=""><a href="/./{{ LANGUAGE_CODE }}/#footer-main" data-toggle="collapse" data-target=".nav-collapse">{% trans "Contact" %}</a></li>
+					<li>
+						<select class="helv-thin">
+							<option>
+								<a class="" href="/./{{ language.0 }}/" title="{{ language.1 }}"><img src="{% static image_static %}" alt="{{ language.0 }}" />{{ language.0}}</img><span></span></a>
+							</option>
+						</select>
+					</li>
+				</ul>
+
+				<!--- <div class="dropdown">
+					<button class="dropbtn">{% trans "Language" %}</button>
+					<div class="dropdown-content">
+						<a class="" href="/./{{ language.0 }}/" title="{{ language.1 }}"><img src="{% static image_static %}" alt="{{ language.0 }}" /></img><span></span></a>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</nav>
+	
+	{% block content %}
+        
+	{% endblock %}
+
+	<div class="row">
+	    <div class="column column-12">
+		<div class="row">
+		    <div class="column column-4">
+			    <h1><a href="/" title="Graeme Stewart Watt">Graeme Stewart Watt</a></h1>
+			    <h4 style="text-align:right;">M.A(Hons) M.A PMP</h4>
+		    </div>
+		    <div class="column column-4">
+			    <ul id="">
+				    <li class="blog"><a href="/blog"><span></span>blog</a></li>
+				    <li class="telephone"><a href="tel:+447505728569"><span></span>+447505728569</a></li>
+				    <li class="telephone"><a href="tel:+34669152421"><span></span>+34669152421</a></li> <li class="mail"><a href="mailto:geewatt@gmail.com"><span></span>geewatt@gmail.com</a></li>
+			    </ul>
+		    </div>
+		    <div class="column column-4">
+			    <ul id=""> 
+				<li><a href="https://twitter.com/geewatt" target="_blank"><img src="{% static "logos/twitter.png" %}" alt="twitter"></img></a></li> 
+				<li><a href="https://www.linkedin.com/in/graeme-stewart-watt-ab001a51" target="_blank"><img src="{% static "logos/linkedin.png" %}" alt="linkedin"></img></a></li> 
+				<li><a href="https://docs.google.com/document/d/1ejTL2Q_fPcuxS-eHH0Ur7FzTQ7jV69c6hxj5BOuUtPw/pub" target="_blank"><img src="{% static "logos/cv.png" %}" alt="cv"></img></a></li> 
+			    </ul>
+                    </div>
+		</div>
+	    </div>
+	</div>
+</body>
+</html>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-03 10:31+0200\n"
+"POT-Creation-Date: 2016-08-08 12:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: gsw/apps/sandbox/templates/sandbox/new_base.html:27
+#: gsw/templates/gsw/base.html:54 gsw/templates/gsw/index.html:28
+msgid "About"
+msgstr "Sobre"
+
+#: gsw/apps/sandbox/templates/sandbox/new_base.html:28
+#: gsw/templates/gsw/base.html:55 gsw/templates/gsw/index.html:82
+msgid "Projects"
+msgstr "Proyectos"
+
+#: gsw/apps/sandbox/templates/sandbox/new_base.html:29
+#: gsw/templates/gsw/base.html:56
+msgid "Contact"
+msgstr "Contacto"
+
+#: gsw/apps/sandbox/templates/sandbox/new_base.html:40
+#: gsw/templates/gsw/base.html:57
+msgid "Language"
+msgstr "Idioma"
+
 #: gsw/settings/base.py:128
 msgid "English"
 msgstr ""
@@ -26,72 +46,46 @@ msgstr ""
 msgid "Castellano"
 msgstr ""
 
-#: gsw/templates/gsw/base.html:50 gsw/templates/gsw/index.html:21
-msgid "About"
-msgstr "Sobre"
+#: gsw/templates/gsw/index.html:12
+#, fuzzy
+msgid "IT SAP Finance Consultant"
+msgstr "Consultor de IT finanzas"
 
-#: gsw/templates/gsw/base.html:51
-msgid "Apps"
-msgstr "Apps"
-
-#: gsw/templates/gsw/base.html:52 gsw/templates/gsw/index.html:61
-msgid "Projects"
-msgstr "Proyectos"
-
-#: gsw/templates/gsw/base.html:53
-msgid "Contact"
-msgstr "Contacto"
-
-#: gsw/templates/gsw/base.html:55
-msgid "Sign Out"
-msgstr "Desconectar"
-
-#: gsw/templates/gsw/base.html:57
-msgid "Sign in"
-msgstr "Conectar"
-
-#: gsw/templates/gsw/base.html:61
-msgid "Language"
-msgstr "Idioma"
-
-#: gsw/templates/gsw/index.html:9
-msgid "International IT SAP Finance Consultant"
-msgstr "Consultor internacional de IT finanzas"
-
-#: gsw/templates/gsw/index.html:10
+#: gsw/templates/gsw/index.html:13
 msgid "IT Solution Delivery to Financial Services"
 msgstr "Soluciones informáticas para los servicios financieros"
 
-#: gsw/templates/gsw/index.html:11
+#: gsw/templates/gsw/index.html:14
 msgid "Business Process Improvements and Refinement"
 msgstr "Mejoras de procesos de negocio y refinamiento"
 
-#: gsw/templates/gsw/index.html:12
+#: gsw/templates/gsw/index.html:15
 msgid "Continuous Improvement based on Data Driven Analysis"
 msgstr "De mejora continua basado en el análisis de datos impulsada"
 
-#: gsw/templates/gsw/index.html:13
+#: gsw/templates/gsw/index.html:16
 msgid "ETL Solutions"
 msgstr "Soluciones ETL"
 
-#: gsw/templates/gsw/index.html:14
+#: gsw/templates/gsw/index.html:17
 msgid "Master Data Governance"
 msgstr "Gobernanza de datos maestros"
 
-#: gsw/templates/gsw/index.html:23
+#: gsw/templates/gsw/index.html:29
+#, fuzzy
 msgid ""
 "During the last ten years I have dedicated my energy in leading IT solutions "
 "to projects driven by a spectrum of sponsors and stakeholders, from senior "
 "accountants and managers through comptrollers to corporate accountants, in a "
 "global finance service center based on US GAAP accounting as well as various "
 "local accounting needs across EMEA, APC, NA and LA regions.<br><br>\n"
-"\tFollowing the Six Sigma methodology, I have improved numerous businesses "
-"processes using a data-driven approach for eliminating inefficiencies and "
-"increasing productivity of the service center.<br><br>\n"
-"        I am highly motivated and focused; capable of effectively seeing "
+"\t\t\t\tFollowing the Six Sigma methodology, I have improved numerous "
+"businesses processes using a data-driven approach for eliminating "
+"inefficiencies and increasing productivity of the service center.<br><br>\n"
+"\t\t\t\tI am highly motivated and focused; capable of effectively seeing "
 "projects through from start to finish. I also have excellent team working "
 "skills and able to support and encourage colleagues.\n"
-"        I am looking for new challenges and continue broadening my problem "
+"\t\t\t\tI am looking for new challenges and continue broadening my problem "
 "solving outlook. I am also keen to find new approaches and share ideas "
 "around emerging technologies."
 msgstr ""
@@ -112,15 +106,15 @@ msgstr ""
 " resolución de problemas. Deseosos de encontrar nuevos enfoques y compartir "
 "ideas. "
 
-#: gsw/templates/gsw/index.html:31
+#: gsw/templates/gsw/index.html:44
 msgid "Experience"
 msgstr "Experiencia"
 
-#: gsw/templates/gsw/index.html:35
+#: gsw/templates/gsw/index.html:48
 msgid "Global IT Finance Business Process Owner, DuPont Asturias"
 msgstr "Propietario global procesos de IT Finanzas, DuPont Asturias"
 
-#: gsw/templates/gsw/index.html:36
+#: gsw/templates/gsw/index.html:49
 msgid ""
 "SME - Business processes for Fixed Asset/PS data flow through DuPont IT "
 "landscape"
@@ -128,11 +122,11 @@ msgstr ""
 "Los procesos de negocio para activos fijos / PS datos fluyen a través de "
 "DuPont entorno de TI "
 
-#: gsw/templates/gsw/index.html:37
+#: gsw/templates/gsw/index.html:50
 msgid "SAP FI-AA FI-PS configuration and transport maintenance"
 msgstr "Configuración de SAP FI-AA FIPS y mantenimiento de transportes"
 
-#: gsw/templates/gsw/index.html:38
+#: gsw/templates/gsw/index.html:51
 msgid ""
 "IT SAP Security owner for the Global Fixed Asset team in Finance Service "
 "Center"
@@ -140,17 +134,17 @@ msgstr ""
 "TI titular de seguridad de SAP para el equipo de activo fijo global en el "
 "centro servicio Finanzas de servicios Financieros "
 
-#: gsw/templates/gsw/index.html:39
+#: gsw/templates/gsw/index.html:52
 msgid "Daily IT support to team of 18 Fixed Asset Accountants and Supervisors"
 msgstr ""
 "soporte de TI a diario para el equipo de 18 Fijo Contadores de activos y "
 "Supervisores "
 
-#: gsw/templates/gsw/index.html:40
+#: gsw/templates/gsw/index.html:53
 msgid "Continuous improvements to the team’s processes and workflow"
 msgstr "De mejora continua basado en el análisis de datos impulsada"
 
-#: gsw/templates/gsw/index.html:41
+#: gsw/templates/gsw/index.html:54
 msgid ""
 "Fixed Asset IT Workstream lead for Corporate sponsored Merger and Demerger "
 "projects"
@@ -158,34 +152,34 @@ msgstr ""
 "Plomo fijo de activos de TI Workstream para Corporate patrocinado Fusión y "
 "Escisión proyectos "
 
-#: gsw/templates/gsw/index.html:42
+#: gsw/templates/gsw/index.html:55
 msgid "Fixed Asset Position Paper Owner"
 msgstr "Activos fijos propietario Documento de Posición"
 
-#: gsw/templates/gsw/index.html:43
+#: gsw/templates/gsw/index.html:56
 msgid "Consultant on weekly Finance Architecture Review Meetings"
 msgstr "Consultor de Reuniones semanales revisión de la arquitectura Finanzas"
 
-#: gsw/templates/gsw/index.html:44
+#: gsw/templates/gsw/index.html:57
 msgid ""
 "Master Data Owner for Asset Class, Chart of Depreciations, FA GL accounts"
 msgstr ""
 "Propietario de datos maestros para la clase de activos, plan de valoración "
 "de las cuentas de GL"
 
-#: gsw/templates/gsw/index.html:46
+#: gsw/templates/gsw/index.html:59
 msgid ""
 "Account Reconciliation System (ARS) Database administrator, DuPont Asturias"
 msgstr "Cuenta del sistema Reconciliación (ARS) administrador de la base"
 
-#: gsw/templates/gsw/index.html:47
+#: gsw/templates/gsw/index.html:60
 msgid ""
 "Run and maintain of SQL server application for timely Month end sign offs"
 msgstr ""
 "Ejecutar y mantener de aplicación de servidor SQL para el mes oportuna offs "
 "señal de final "
 
-#: gsw/templates/gsw/index.html:48
+#: gsw/templates/gsw/index.html:61
 msgid ""
 "Collection and prep of Comptrollers' quarterly reconciliation sign offs with "
 "MS Access App"
@@ -193,7 +187,7 @@ msgstr ""
 "Recogida y preparación de la muestra trimestral offs de la Contraloría "
 "reconciliación con aplicación de MS Access "
 
-#: gsw/templates/gsw/index.html:49
+#: gsw/templates/gsw/index.html:62
 msgid ""
 "Designed and implemented automated SOX compliance process to ensure "
 "accountability of SAP manual entry postings"
@@ -202,11 +196,11 @@ msgstr ""
 "asegurar las publicaciones del ingreso manual para SAP se documentaron y "
 "representaron "
 
-#: gsw/templates/gsw/index.html:51
+#: gsw/templates/gsw/index.html:64
 msgid "General Ledger IT Specialist, DuPont Asturias"
 msgstr ""
 
-#: gsw/templates/gsw/index.html:52
+#: gsw/templates/gsw/index.html:65
 msgid ""
 "Providing IT support and solutions to GL accountants for processing accruals "
 "and month end closing processes"
@@ -214,11 +208,11 @@ msgstr ""
 "Proporcionar soporte de TI y soluciones a GL cuentas para el procesamiento "
 "de acumulación solicitudes, conciliaciones y procesos de cierre de fin de mes"
 
-#: gsw/templates/gsw/index.html:54
+#: gsw/templates/gsw/index.html:67
 msgid "Business Analyst, Chivas Ltd"
 msgstr ""
 
-#: gsw/templates/gsw/index.html:55
+#: gsw/templates/gsw/index.html:68
 msgid ""
 "Key resource to improve data entry on backlog of invoices into Oracle ERP "
 "database"
@@ -226,35 +220,36 @@ msgstr ""
 "recurso clave para mejorar la entrada de datos en la acumulación de facturas "
 "en base de datos Oracle ERP"
 
-#: gsw/templates/gsw/index.html:64
+#: gsw/templates/gsw/index.html:84
 msgid "Planning"
 msgstr "Planificación"
 
-#: gsw/templates/gsw/index.html:65
+#: gsw/templates/gsw/index.html:85
 msgid ""
 "Identify requirements, both US GAAP and local accounting needs based on "
 "scope of legal entity structure provided by Tax and Corporate Accounting"
 msgstr ""
-"Identificar los requisitos, los PCGA de EE.UU. y las necesidades "
-"locales de contabilidad basado en el alcance de la estructura de la " 
-"entidad legal proporcionada por Impuestos y Contabilidad de Sociedades"
+"Identificar los requisitos, los PCGA de EE.UU. y las necesidades locales de "
+"contabilidad basado en el alcance de la estructura de la entidad legal "
+"proporcionada por Impuestos y Contabilidad de Sociedades"
 
-#: gsw/templates/gsw/index.html:66
+#: gsw/templates/gsw/index.html:86
 msgid ""
 "Transform the collected project information into a project management plan"
 msgstr ""
-"Transformar la información del proyecto recogido en un plan de gestión de proyectos"
+"Transformar la información del proyecto recogido en un plan de gestión de "
+"proyectos"
 
-#: gsw/templates/gsw/index.html:67
+#: gsw/templates/gsw/index.html:87
 msgid ""
 "Align and connect Fixed Asset design for project scope appropriately with "
 "the other processes/work streams to facilitate coordination"
 msgstr ""
 "Alinear y conectar el diseño de activo fijo para el alcance del proyecto "
-"adecuadamente con los otros procesos / flujos de trabajo para facilitar "
-"la coordinación"
+"adecuadamente con los otros procesos / flujos de trabajo para facilitar la "
+"coordinación"
 
-#: gsw/templates/gsw/index.html:68
+#: gsw/templates/gsw/index.html:88
 msgid ""
 "Prepare cut over plan managing project scope to meet sponsor, customer and "
 "other stakeholder requirements and project objectives"
@@ -263,17 +258,17 @@ msgstr ""
 "satisfacer las necesidades de los patrocinadores, clientes y otras partes "
 "interesadas y los objetivos del proyecto"
 
-#: gsw/templates/gsw/index.html:69
+#: gsw/templates/gsw/index.html:89
 msgid "Identifying potential risks that could impact the global cut over plan"
 msgstr ""
 "La identificación de los riesgos potenciales que podrían afectar el plan de "
 "corte y cambio mundial"
 
-#: gsw/templates/gsw/index.html:70
+#: gsw/templates/gsw/index.html:91
 msgid "Organization"
 msgstr "Organización"
 
-#: gsw/templates/gsw/index.html:71
+#: gsw/templates/gsw/index.html:92
 msgid ""
 "Meetings/presentations with stakeholders and sponsors to convey corporate "
 "strategy and objectives from the project"
@@ -281,7 +276,7 @@ msgstr ""
 "Reuniones / presentaciones con los interesados y patrocinadores para "
 "transmitir la estrategia y los objetivos del proyecto empresarial"
 
-#: gsw/templates/gsw/index.html:72
+#: gsw/templates/gsw/index.html:93
 msgid ""
 "Lead daily calls for communication with the various stakeholders affected by "
 "the new architecture design"
@@ -289,21 +284,21 @@ msgstr ""
 "llamadas diarias de plomo para la comunicación con los distintos grupos de "
 "interés afectados por el nuevo diseño de la arquitectura"
 
-#: gsw/templates/gsw/index.html:73
+#: gsw/templates/gsw/index.html:94
 msgid ""
 "Track, review and regulate the progress and performance of the project, "
 "identify any areas in which changes to the plan are required; and initiate "
 "the corresponding changes"
 msgstr ""
-"Pista, revisar y regular el progreso y el desempeño del proyecto, identificar "
-"las áreas en las que los cambios que se requieren del plan; e iniciar los "
-"cambios correspondientes"
+"Pista, revisar y regular el progreso y el desempeño del proyecto, "
+"identificar las áreas en las que los cambios que se requieren del plan; e "
+"iniciar los cambios correspondientes"
 
-#: gsw/templates/gsw/index.html:74
+#: gsw/templates/gsw/index.html:95
 msgid "People Management"
 msgstr "Manejo de personal"
 
-#: gsw/templates/gsw/index.html:75
+#: gsw/templates/gsw/index.html:97
 msgid ""
 "Assign detailed project deliverables to outside consultants to meet the "
 "needs of the project"
@@ -311,66 +306,66 @@ msgstr ""
 "Asignar las prestaciones del proyecto detalladas a consultores externos para "
 "satisfacer las necesidades del proyecto"
 
-#: gsw/templates/gsw/index.html:76
+#: gsw/templates/gsw/index.html:98
 msgid ""
 "Good relations with the operational stakeholders throughout all stages of "
 "the project from BIT, USAT to Go-live to have continuous feedback from them"
 msgstr ""
-"Las buenas relaciones con las partes interesadas operativas a lo largo de todas "
-"las etapas del proyecto de TBI, la USAT a la entrada en funcionamiento de tener "
-"una retroalimentación continua de ellas"
+"Las buenas relaciones con las partes interesadas operativas a lo largo de "
+"todas las etapas del proyecto de TBI, la USAT a la entrada en funcionamiento "
+"de tener una retroalimentación continua de ellas"
 
-#: gsw/templates/gsw/index.html:119
+#: gsw/templates/gsw/index.html:157
 msgid "Skills"
 msgstr "Habilidades"
 
-#: gsw/templates/gsw/index.html:120
+#: gsw/templates/gsw/index.html:158
 msgid "Languages"
 msgstr "Idiomas"
 
-#: gsw/templates/gsw/index.html:165
+#: gsw/templates/gsw/index.html:201
 msgid "Applications / Frameworks"
 msgstr "Aplicaciones / Frameworks"
 
-#: gsw/templates/gsw/index.html:243
+#: gsw/templates/gsw/index.html:305
 msgid "Continuous Improvements"
 msgstr "Mejoras continuas"
 
-#: gsw/templates/gsw/index.html:244
+#: gsw/templates/gsw/index.html:306
 msgid "Certifications"
 msgstr "Certificaciones"
 
-#: gsw/templates/gsw/index.html:264
+#: gsw/templates/gsw/index.html:328
 msgid "Majority of below assignments involved:"
 msgstr "La mayoría de las tareas siguientes que se trate:"
 
-#: gsw/templates/gsw/index.html:265
+#: gsw/templates/gsw/index.html:329
 msgid "- Voice of the Customer(VOC) collection and analysis"
 msgstr ""
 
-#: gsw/templates/gsw/index.html:266
+#: gsw/templates/gsw/index.html:330
 msgid "- Project Charter preparation"
 msgstr "- Preparación carta del proyecto"
 
-#: gsw/templates/gsw/index.html:267
+#: gsw/templates/gsw/index.html:331
 msgid "- Powerpoint presentations to Sponsors and Senior Management"
 msgstr "- Presentaciones de PowerPoint a los patrocinadores y Alta Dirección"
 
-#: gsw/templates/gsw/index.html:268
+#: gsw/templates/gsw/index.html:332
 msgid "- Measured analysis to justify benefits of proposed solutions"
 msgstr ""
 "- Análisis de medición para justificar beneficios de las soluciones "
 "propuestas"
 
-#: gsw/templates/gsw/index.html:269
+#: gsw/templates/gsw/index.html:333
 msgid "- Design, testing, and delivery of final solution"
 msgstr "- Diseño, pruebas y entrega de la solución final"
 
-#: gsw/templates/gsw/index.html:270
+#: gsw/templates/gsw/index.html:334
 msgid "- Documentation and Visual Swimlane maps for new processes"
 msgstr "- Documentación y Swimlane Visual mapas para los nuevos procesos"
 
-#: gsw/templates/gsw/index.html:274
+#: gsw/templates/gsw/index.html:338
 msgid ""
 "Collaboration on Tableau project for mobile/tablet friendly Business "
 "Reporting dashboards to Global Business Managers"
@@ -378,7 +373,7 @@ msgstr ""
 "Colaboración en el proyecto de Tableau para el móvil / tableta de negocios "
 "Informar a los directores de cuadros de mando de Negocios Globales "
 
-#: gsw/templates/gsw/index.html:275
+#: gsw/templates/gsw/index.html:339
 msgid ""
 "- ETL solutions to cleanse and prepare consolidated financial data for "
 "loading into Tableau servers, low cost solution to bring mobile/tablet "
@@ -388,7 +383,7 @@ msgstr ""
 "para la carga en los servidores de Tableau, solución de bajo costo para "
 "traer móvil / tablet Los informes de usar"
 
-#: gsw/templates/gsw/index.html:277
+#: gsw/templates/gsw/index.html:341
 msgid ""
 "Design and develop ETL/Reconciliation app for Asset Accounting data transfer "
 "across SAP R/3 systems"
@@ -396,7 +391,7 @@ msgstr ""
 "Diseño y desarrollo de ETL / app Reconciliación de los datos contables de "
 "activos a través de sistemas de SAP R/3"
 
-#: gsw/templates/gsw/index.html:278
+#: gsw/templates/gsw/index.html:342
 msgid ""
 "- Time savings, rework and manual data entry errors elimination, automated "
 "reconciliations"
@@ -404,11 +399,11 @@ msgstr ""
 "- Ahorro de tiempo y eliminación de retrabajo y los errores de entrada de "
 "datos manuales, conciliaciones automatizadas"
 
-#: gsw/templates/gsw/index.html:280
+#: gsw/templates/gsw/index.html:344
 msgid "Creation of SharePoint team sites and control forms"
 msgstr "Creación de bases de SharePoint y formas de control"
 
-#: gsw/templates/gsw/index.html:281
+#: gsw/templates/gsw/index.html:345
 msgid ""
 "- promote online collaboration during project work, centralized storage for "
 "project documentation"
@@ -416,7 +411,7 @@ msgstr ""
 "- Promover la colaboración en línea durante el trabajo del proyecto, el "
 "almacenamiento centralizado para documentación del proyecto"
 
-#: gsw/templates/gsw/index.html:283
+#: gsw/templates/gsw/index.html:347
 msgid ""
 "Infocube design and collaboration for the integration of SAP Asset Module to "
 "SAP Business Warehouse"
@@ -424,30 +419,30 @@ msgstr ""
 "Infocube diseño y la colaboración para la integración de SAP módulo de "
 "activos de SAP Business Warehouse"
 
-#: gsw/templates/gsw/index.html:284
+#: gsw/templates/gsw/index.html:348
 msgid ""
 "- Faster more standardized reporting queries with reduced MS Excel rework"
 msgstr ""
 "- Consultas de información más rápida y estandarizados con la reducción de "
 "la reanudación de MS Excel"
 
-#: gsw/templates/gsw/index.html:286
+#: gsw/templates/gsw/index.html:350
 msgid "EMEA VAT Netting process automation"
 msgstr "automatización EMEA proceso de compensación del IVA"
 
-#: gsw/templates/gsw/index.html:287
+#: gsw/templates/gsw/index.html:351
 msgid "- Reduction in FTE resources from 5 to 2"
 msgstr "- Reducción de los recursos FTE de 5 a 2"
 
-#: gsw/templates/gsw/index.html:289
+#: gsw/templates/gsw/index.html:353
 msgid "Automation of EMEA IntraStat tax reporting"
 msgstr "La automatización de la declaración de impuestos EMEA IntraStat"
 
-#: gsw/templates/gsw/index.html:290
+#: gsw/templates/gsw/index.html:354
 msgid "- Reduction in FTE resources from 10 to 2"
 msgstr "- Reducción de los recursos FTE de 10 a 2"
 
-#: gsw/templates/gsw/index.html:292
+#: gsw/templates/gsw/index.html:356
 msgid ""
 "Implementation of Electronic Closing Folder process for EMEA GL team with "
 "automated account reconciliations"
@@ -455,7 +450,7 @@ msgstr ""
 "Aplicación del proceso de cierre de la carpeta electrónica para el equipo de "
 "EMEA con GL conciliaciones de cuentas automatizadas"
 
-#: gsw/templates/gsw/index.html:293
+#: gsw/templates/gsw/index.html:357
 msgid ""
 "- Removal of paper based reporting and reconciliations to process based on "
 "PDF format"
@@ -463,11 +458,11 @@ msgstr ""
 "- Eliminación de informes basados en papel y conciliaciones de proceso "
 "basado en formato PDF"
 
-#: gsw/templates/gsw/index.html:295
+#: gsw/templates/gsw/index.html:359
 msgid "Bank Of America/SAP FI-CO reconciliation process digitization"
 msgstr "Bank of America / SAP FI-CO digitalización proceso de reconciliación"
 
-#: gsw/templates/gsw/index.html:296
+#: gsw/templates/gsw/index.html:360
 msgid ""
 "- Removal of manual paper based reconciliation with a reduction in FTE "
 "resources from 5 to 1"
@@ -475,7 +470,7 @@ msgstr ""
 "- La eliminación de la reconciliación basada manual de papel con una "
 "reducción de FTE recursos de 5 a 1"
 
-#: gsw/templates/gsw/index.html:298
+#: gsw/templates/gsw/index.html:362
 msgid ""
 "Application to identify Exchange Gain And Loss variances in both "
 "reconciliation and open item accounts"
@@ -483,14 +478,14 @@ msgstr ""
 "Aplicación para identificar Ganancia en Cambio y la pérdida de las "
 "variaciones en tanto reconciliación y cuentas de partidas abiertas"
 
-#: gsw/templates/gsw/index.html:299
+#: gsw/templates/gsw/index.html:363
 msgid ""
 "- Time savings to EGL processes shortening GL Month End Closing Schedule"
 msgstr ""
 "- Ahorro de tiempo en los procesos de acortamiento de EGL GL fin de mes "
 "Horario de Cierre"
 
-#: gsw/templates/gsw/index.html:301
+#: gsw/templates/gsw/index.html:365
 msgid ""
 "Extensive refinement and streamlining of SAP Asset Accounting Module "
 "transmission to DuPont's Global Consolidation Reporting program"
@@ -499,7 +494,7 @@ msgstr ""
 "activos transmisión al programa de Consolidación de Información Global de "
 "DuPont"
 
-#: gsw/templates/gsw/index.html:302
+#: gsw/templates/gsw/index.html:366
 msgid ""
 "- Gained simplified automated FI-AA reconciliations, times savings reducing "
 "Permanent Investment's Month End Closing"
