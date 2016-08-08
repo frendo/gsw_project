@@ -35,7 +35,7 @@
 .color-grade-3 {
  background-color:#F2F9FF;
 } 
-#about {padding-top:50px;height:auto;color: #888888; background-color: #fff;}
+#about {padding-top:50px;padding-bottom:50px;height:auto;color: #888888; background-color: #fff;}
 #experience {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #FAFBFD;}
 #projects {padding-top:50px;padding-bottom:px;height:auto;color: #444444; background-color: #F7F9FA;}
 #skills {padding-top:50px;padding-bottom:50px;height:auto;color: #444444; background-color: #F2F9FF;}
