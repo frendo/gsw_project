@@ -65,6 +65,7 @@ text-align: justify;
 }
 #highlights {
 list-style:none;
+height: auto;
 }
 .social-icons {
 list-style: none;

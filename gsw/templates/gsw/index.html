@@ -117,7 +117,7 @@
 								<a href="{{ project.company_url }}" target="_blank">
 									<img src="{{ project.company_logo_url }}" alt="{{project.company_logo_alt }}" class="img-responsive center-block">
 								</a>
-								<br></br>
+								<br>
 								<p><a href="{% url 'project_detail' pk=project.pk %}">{{ project.title }}</a></p></a>
 							</div>
 							<div class="item">
@@ -368,5 +368,4 @@
 </div>
 </div>
 <script src={% static "js/tiles.js" %}></script>
-
 {% endblock %}
