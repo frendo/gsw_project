@@ -95,6 +95,7 @@ color: #757575;
     color: #222;
     font-size: 0.8em;
     text-align: center;
+    padding-top: 25px;
 }
 #x {
 float: left;
@@ -131,6 +132,7 @@ color: #757575;
      top: 0px;
      position: absolute;
      padding-left: 180px;
+     margin-top: 25px;
 }
 h1{ 
 font-size:3em;
@@ -331,4 +333,8 @@ height:auto;
     .collapse.in{
   		display:block !important;
 	}
+}
+#br {
+	padding-top:90px;
+	padding-bottom: 10px;
 }
