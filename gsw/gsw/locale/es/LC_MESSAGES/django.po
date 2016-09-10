@@ -21,7 +21,7 @@ msgstr ""
 #: gsw/apps/sandbox/templates/sandbox/new_base.html:27
 #: gsw/templates/gsw/base.html:54 gsw/templates/gsw/index.html:28
 msgid "About"
-msgstr "Sobre"
+msgstr "Carta de presentación"
 
 #: gsw/apps/sandbox/templates/sandbox/new_base.html:28
 #: gsw/templates/gsw/base.html:55 gsw/templates/gsw/index.html:81
@@ -48,7 +48,7 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:12
 msgid "IT SAP Finance Consultant"
-msgstr "Consultor de IT SAP Finanzas"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:13
 msgid "IT Solution Delivery to Financial Services"
@@ -56,19 +56,19 @@ msgstr "Soluciones informáticas para los servicios financieros"
 
 #: gsw/templates/gsw/index.html:14
 msgid "Business Process Improvements and Refinement"
-msgstr "Mejoras de procesos de negocio y refinamiento"
+msgstr "Mejoras en procesos de negocio"
 
 #: gsw/templates/gsw/index.html:15
 msgid "Continuous Improvement based on Data Driven Analysis"
-msgstr "De mejora continua basado en el análisis de datos impulsada"
+msgstr "Mejora continua basado en el análisis de datos"
 
 #: gsw/templates/gsw/index.html:16
 msgid "ETL Solutions"
-msgstr "Soluciones ETL"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:17
 msgid "Master Data Governance"
-msgstr "Gobernanza de datos maestros"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:30
 msgid ""
