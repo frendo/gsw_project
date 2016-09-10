@@ -21,7 +21,7 @@ msgstr ""
 #: gsw/apps/sandbox/templates/sandbox/new_base.html:27
 #: gsw/templates/gsw/base.html:54 gsw/templates/gsw/index.html:28
 msgid "About"
-msgstr "Carta de presentación"
+msgstr " "
 
 #: gsw/apps/sandbox/templates/sandbox/new_base.html:28
 #: gsw/templates/gsw/base.html:55 gsw/templates/gsw/index.html:81
@@ -122,7 +122,7 @@ msgstr "Experiencia"
 
 #: gsw/templates/gsw/index.html:47
 msgid "Global IT Finance Business Process Owner, DuPont Asturias"
-msgstr "Propietario global procesos de IT Finanzas, DuPont Asturias"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:48
 msgid ""
@@ -167,8 +167,6 @@ msgstr "Fixed Asset Position Paper Owner"
 #: gsw/templates/gsw/index.html:55
 msgid "Consultant on weekly Finance Architecture Review Meetings"
 msgstr ""
-"Consultor departamentos de facturación, gestión de cobros, contabilización, "
-"etc."
 
 #: gsw/templates/gsw/index.html:56
 msgid ""
@@ -179,8 +177,6 @@ msgstr "Usuario clave de datos maestros, tablas de amortización, Cuentas FA GL"
 msgid ""
 "Account Reconciliation System (ARS) Database administrator, DuPont Asturias"
 msgstr ""
-"Sistemas de conciliación de cuentas (Administrados Base de Datos), DuPont "
-"Asturias"
 
 #: gsw/templates/gsw/index.html:59
 msgid ""
@@ -354,7 +350,7 @@ msgstr "- Creación, gestión y control de los informes de Proyecto."
 msgid "- Powerpoint presentations to Sponsors and Senior Management"
 msgstr ""
 "-  Exposiciones a través de presentaciones Powerpoint tanto a clientes como "
-"a alta dirección"
+"a alta dirección."
 
 #: gsw/templates/gsw/index.html:327
 msgid "- Measured analysis to justify benefits of proposed solutions"
@@ -394,47 +390,48 @@ msgid ""
 "Design and develop ETL/Reconciliation app for Asset Accounting data transfer "
 "across SAP R/3 systems"
 msgstr ""
-"Diseño y desarrollo de ETL / app Reconciliación de los datos contables de "
-"activos a través de sistemas de SAP R/3"
+"Diseño y desarrollo de ETL (conciliación de cuentas app para la transmisión de "
+"datos contables relacionados con activos a través del módulo de SAP R/3)"
 
 #: gsw/templates/gsw/index.html:337
 msgid ""
 "- Time savings, rework and manual data entry errors elimination, automated "
 "reconciliations"
 msgstr ""
-"- Ahorro de tiempo y eliminación de retrabajo y los errores de entrada de "
-"datos manuales, conciliaciones automatizadas"
+"- Ahorro de tiempo en el trabajo y disminución en errores dado que se eliminó la "
+"introducción manual de datos. Conciliación de cuentas automáticas."
 
 #: gsw/templates/gsw/index.html:339
 msgid "Creation of SharePoint team sites and control forms"
-msgstr "Creación de bases de SharePoint y formas de control"
+msgstr "Creación de bases SharePoint y su mantenimiento y control"
 
 #: gsw/templates/gsw/index.html:340
 msgid ""
 "- promote online collaboration during project work, centralized storage for "
 "project documentation"
 msgstr ""
-"- Promover la colaboración en línea durante el trabajo del proyecto, el "
-"almacenamiento centralizado para documentación del proyecto"
+"- Gracias a esta herramienta la documentación de los proyectos permanecía almacenada "
+"y controlada, permitiendo alcanzar con mayor éxito los objetivos establecidos."
 
 #: gsw/templates/gsw/index.html:342
 msgid ""
-"Infocube design and collaboration for the integration of SAP Asset Module to "
-"SAP Business Warehouse"
+"Infocube design and collaboration for the integration of SAP Asset Module to SAP "
+"Business Warehouse"
+
 msgstr ""
-"Infocube diseño y la colaboración para la integración de SAP módulo de "
-"activos de SAP Business Warehouse"
+"Diseño Infocube y colaboración para la integración de módulos SAP al entorno SAP Business "
+"Warehouse"
 
 #: gsw/templates/gsw/index.html:343
 msgid ""
 "- Faster more standardized reporting queries with reduced MS Excel rework"
 msgstr ""
-"- Consultas de información más rápida y estandarizados con la reducción de "
-"la reanudación de MS Excel"
+"- Creación de consultas de almacenamiento de información más rápidas y estandarizadas "
+"gracias a la reducción de tiempos en consultas MS Excel."
 
 #: gsw/templates/gsw/index.html:345
 msgid "EMEA VAT Netting process automation"
-msgstr "automatización EMEA proceso de compensación del IVA"
+msgstr "Automatización del proceso de compensación de IVA para la región EMEA"
 
 #: gsw/templates/gsw/index.html:346
 msgid "- Reduction in FTE resources from 5 to 2"
@@ -442,19 +439,19 @@ msgstr "- Reducción de los recursos FTE de 5 a 2"
 
 #: gsw/templates/gsw/index.html:348
 msgid "Automation of EMEA IntraStat tax reporting"
-msgstr "La automatización de la declaración de impuestos EMEA IntraStat"
+msgstr "Automatización de la declaración de impuestos IntraStat en la región EMEA"
 
 #: gsw/templates/gsw/index.html:349
-msgid "- Reduction in FTE resources from 10 to 2"
-msgstr "- Reducción de los recursos FTE de 10 a 2"
+msgid "- Reduction in FTE resources from 10 to 3"
+msgstr "- Reducción en los recursos FTE (de 10 a 3)"
 
 #: gsw/templates/gsw/index.html:351
 msgid ""
 "Implementation of Electronic Closing Folder process for EMEA GL team with "
 "automated account reconciliations"
 msgstr ""
-"Aplicación del proceso de cierre de la carpeta electrónica para el equipo de "
-"EMEA con GL conciliaciones de cuentas automatizadas"
+"Digitalización en el proceso de conciliación contable entre el Banco de América y "
+"SAP FI-CO"
 
 #: gsw/templates/gsw/index.html:352
 msgid ""
@@ -466,44 +463,43 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:354
 msgid "Bank Of America/SAP FI-CO reconciliation process digitization"
-msgstr "Bank of America / SAP FI-CO digitalización proceso de reconciliación"
+msgstr "Digitalización en el proceso de conciliación contable entre el Banco de América y SAP FI-CO"
 
 #: gsw/templates/gsw/index.html:355
 msgid ""
 "- Removal of manual paper based reconciliation with a reduction in FTE "
 "resources from 5 to 1"
 msgstr ""
-"- La eliminación de la reconciliación basada manual de papel con una "
-"reducción de FTE recursos de 5 a 1"
+"- Consistente en eliminar la conciliación de cuentas manuales, reduciendo los "
+"recursos FTE (de 5 a 1)."
 
 #: gsw/templates/gsw/index.html:357
 msgid ""
 "Application to identify Exchange Gain And Loss variances in both "
 "reconciliation and open item accounts"
 msgstr ""
-"Aplicación para identificar Ganancia en Cambio y la pérdida de las "
-"variaciones en tanto reconciliación y cuentas de partidas abiertas"
+"Creación y mantenimiento de una aplicación que identifica el beneficio del "
+"cambio y sus variaciones tanto a nivel de conciliación de cuentas como en "
+"el análisis de partidas abiertas"
 
 #: gsw/templates/gsw/index.html:358
 msgid ""
 "- Time savings to EGL processes shortening GL Month End Closing Schedule"
 msgstr ""
-"- Ahorro de tiempo en los procesos de acortamiento de EGL GL fin de mes "
-"Horario de Cierre"
+"- Ahorro sustancial de tiempos en los procesos EGL favoreciendo el cierre "
+"mensual contable."
 
 #: gsw/templates/gsw/index.html:360
 msgid ""
 "Extensive refinement and streamlining of SAP Asset Accounting Module "
 "transmission to DuPont's Global Consolidation Reporting program"
 msgstr ""
-"Extensa refinamiento y la racionalización de SAP módulo de contabilidad de "
-"activos transmisión al programa de Consolidación de Información Global de "
-"DuPont"
+"Perfeccionamiento y agilización en la transmisión de Activos entre el módulo "
+"contable de SAP y los programas de información global de la compañía."
 
 #: gsw/templates/gsw/index.html:361
 msgid ""
 "- Gained simplified automated FI-AA reconciliations, times savings reducing "
 "Permanent Investment's Month End Closing"
 msgstr ""
-"- ganados simplificados automatizados conciliaciones FI-AA, tiempos de "
-"ahorro reducción de inversiones Permanente Cierre del Mes"
+"- Automatización de las conciliaciones en FI-AA."
