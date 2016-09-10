@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 "A lo largo de los últimos diez años, mi carrera profesional ha estado "
 "enfocada en la colaboración dentro de una serie de proyectos conducidos por "
-"diferentes stakeholders. He trabajado con diferentes perfiles profesionales "
+"diversos stakeholders. He trabajado con diferentes perfiles profesionales "
 "(senior accountants, controllers, coordinadores de equipos, team leaders, "
 "etc) en el Centro Global Financiero de Dupont Asturias (siguiendo la "
 "normativa US GAAP así como todos los requisitos contables específicos para "
@@ -110,8 +110,8 @@ msgstr ""
 "gestionar proyectos de manera efectiva y llevarlos a cabo hasta conseguir "
 "resultados óptimos para la empresa, siendo consciente de la importancia del "
 "trabajo en equipo y de la necesidad de hacer partícipes a todos los "
-"integrantes, transmitiendo conocimiento y buen hacer. En la actualidad, "
-"estoy intentando acceder a nuevos retos y seguir ampliando mis perspectivas "
+"integrantes, transmitiendo conocimiento y buen hacer." 
+"En la actualidad, estoy intentando acceder a nuevos retos y seguir ampliando mis perspectivas "
 "en cuanto a la resolución de problemas, así como en encontrar nuevos "
 "enfoques y compartir conocimientos e ideas entorno a las nuevas tecnologías "
 "emergentes."
@@ -166,7 +166,7 @@ msgstr "Fixed Asset Position Paper Owner"
 
 #: gsw/templates/gsw/index.html:55
 msgid "Consultant on weekly Finance Architecture Review Meetings"
-msgstr ""
+msgstr "Consultor de caracter semanal en las Finace Architecture Review Meetings"
 
 #: gsw/templates/gsw/index.html:56
 msgid ""
@@ -198,7 +198,7 @@ msgid ""
 "Designed and implemented automated SOX compliance process to ensure "
 "accountability of SAP manual entry postings"
 msgstr ""
-"Diseño e implementación automática para asegurar la responsabilidad de los "
+"Diseño e implantación automática para asegurar la responsabilidad de los "
 "envíos de entrada manual en SAP (procedimiento SOX)."
 
 #: gsw/templates/gsw/index.html:63
@@ -235,7 +235,7 @@ msgid ""
 "scope of legal entity structure provided by Tax and Corporate Accounting"
 msgstr ""
 "Identificación de los requisitos contables tanto US GAAP como las "
-"necesidades locales de Contabilidad (incluyendo impuestos y Contabilidad de "
+"necesidades locales de contabilidad (incluyendo impuestos y contabilidad de "
 "sociedades)."
 
 #: gsw/templates/gsw/index.html:85
@@ -277,13 +277,13 @@ msgid ""
 "strategy and objectives from the project"
 msgstr ""
 "Reuniones/ presentaciones tanto internas como externas para transmitir la "
-"estrategia y el objetivo del Proyecto empresarial."
+"estrategia y el objetivo del proyecto empresarial."
 
 #: gsw/templates/gsw/index.html:92
 msgid ""
 "Lead daily calls for communication with the various stakeholders affected by "
 "the new architecture design"
-msgstr "Atención telefónica con los distintos grupos de interés afectados."
+msgstr "Atención telefónica a los distintos grupos de interés afectados."
 
 #: gsw/templates/gsw/index.html:93
 msgid ""
@@ -344,7 +344,7 @@ msgstr "- Análisis de Voice of the Customer(VOC)"
 
 #: gsw/templates/gsw/index.html:325
 msgid "- Project Charter preparation"
-msgstr "- Creación, gestión y control de los informes de Proyecto."
+msgstr "- Creación, gestión y control de los informes de proyecto."
 
 #: gsw/templates/gsw/index.html:326
 msgid "- Powerpoint presentations to Sponsors and Senior Management"
@@ -381,16 +381,16 @@ msgid ""
 "loading into Tableau servers, low cost solution to bring mobile/tablet "
 "friendly reporting"
 msgstr ""
-"- Soluciones ETL para limpiar y preparar los datos financieros consolidados "
-"para la carga en los servidores de Tableau, solución de bajo costo para "
-"traer móvil / tablet Los informes de usar"
+"- Soluciones ETL para depurar los datos financieros antes de ser cargados en los "
+"servidores de Tableau. Se consideró una solución de bajo coste para transferir "
+"de manera sencilla y eficaz la información."
 
 #: gsw/templates/gsw/index.html:336
 msgid ""
 "Design and develop ETL/Reconciliation app for Asset Accounting data transfer "
 "across SAP R/3 systems"
 msgstr ""
-"Diseño y desarrollo de ETL (conciliación de cuentas app para la transmisión de "
+"Diseño y desarrollo de ETL (app conciliación de cuentas para la transmisión de "
 "datos contables relacionados con activos a través del módulo de SAP R/3)"
 
 #: gsw/templates/gsw/index.html:337
@@ -458,7 +458,7 @@ msgid ""
 "- Removal of paper based reporting and reconciliations to process based on "
 "PDF format"
 msgstr ""
-"- Eliminación de informes basados en papel y conciliaciones de proceso "
+"- Eliminación de informes basados en papel y generación de conciliaciones de proceso "
 "basado en formato PDF"
 
 #: gsw/templates/gsw/index.html:354
