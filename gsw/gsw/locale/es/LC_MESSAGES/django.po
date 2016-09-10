@@ -203,7 +203,7 @@ msgstr ""
 
 #: gsw/templates/gsw/index.html:63
 msgid "General Ledger IT Specialist, DuPont Asturias"
-msgstr "Contabilidad General Especialista en IT, DuPont Asturias"
+msgstr ""
 
 #: gsw/templates/gsw/index.html:64
 msgid ""
